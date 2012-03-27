@@ -21,6 +21,6 @@
 @property (nonatomic, retain) IBOutlet UIButton *NVCdrawViewButton;
 @property (nonatomic, retain) IBOutlet UIButton *NVCdrawAlbumButton;
 @property (nonatomic, retain) IBOutlet UIButton *sketchWonderlandImageView;
-
+//
 
 @end
