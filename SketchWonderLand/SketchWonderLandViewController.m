@@ -9,9 +9,7 @@
 #import "SketchWonderLandViewController.h"
 
 @implementation SketchWonderLandViewController
-@synthesize swSelectDrawCanvasViewController;
-@synthesize swDrawAlbumViewController;
-@synthesize swDrawViewController;
+@synthesize swNavigationController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -29,9 +27,9 @@
 {
 //    [super viewDidLoad];
     
-    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
-    [self presentModalViewController:selectDrawCanvasViewController animated:NO];
-    [selectDrawCanvasViewController release];
+//    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
+//    [self presentModalViewController:selectDrawCanvasViewController animated:NO];
+//    [selectDrawCanvasViewController release];
     
 //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
     
@@ -51,6 +49,10 @@
     [self presentModalViewController:drawViewController animated:NO];
     [drawViewController release];*/
     
+    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
+    [self presentModalViewController:swNavigationView animated:NO];
+    [swNavigationView release];
+    
     [super viewDidLoad];
 }
 
@@ -63,26 +65,26 @@
     // e.g. self.myOutlet = nil;
 }
 
--(IBAction)switchViews:(id)sender
-{
-    if(self.swDrawViewController == nil)
-    {
-        SWDrawViewController *drawViewController = [[SWDrawViewController alloc]initWithNibName:@"SWDrawViewController" bundle:nil];
-        self.swDrawViewController = drawViewController;
-        [drawViewController release];
-    }
-    if(self.swSelectDrawCanvasViewController.view.superview == nil)
-    {
-        [swDrawViewController.view removeFromSuperview];
-        [self.view insertSubview:swSelectDrawCanvasViewController.view atIndex:0];
-    }
-    else
-    {
-        [swSelectDrawCanvasViewController.view removeFromSuperview];
-        [self.view insertSubview:swDrawViewController.view atIndex:0];
-    }
-}
-
+//-(IBAction)switchViews:(id)sender
+//{
+//    if(self.swDrawViewController == nil)
+//    {
+//        SWDrawViewController *drawViewController = [[SWDrawViewController alloc]initWithNibName:@"SWDrawViewController" bundle:nil];
+//        self.swDrawViewController = drawViewController;
+//        [drawViewController release];
+//    }
+//    if(self.swSelectDrawCanvasViewController.view.superview == nil)
+//    {
+//        [swDrawViewController.view removeFromSuperview];
+//        [self.view insertSubview:swSelectDrawCanvasViewController.view atIndex:0];
+//    }
+//    else
+//    {
+//        [swSelectDrawCanvasViewController.view removeFromSuperview];
+//        [self.view insertSubview:swDrawViewController.view atIndex:0];
+//    }
+//}
+//
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
@@ -91,9 +93,7 @@
 
 -(void)dealloc
 {
-    [swDrawViewController release];
-    [swDrawAlbumViewController release];
-    [swSelectDrawCanvasViewController release];
+    [swNavigationController release];
     
     [super dealloc];
 }

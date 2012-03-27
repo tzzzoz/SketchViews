@@ -7,25 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SWDrawViewController.h"
-#import "SWDrawAlbumViewController.h"
-#import "SWSelectDrawCanvasViewController.h"
-
-@class SWDrawViewController;
-@class SWDrawAlbumViewController;
-@class SWSelectDrawCanvasViewController;
+#import "SWNavigationViewController.h"
 
 @interface SketchWonderLandViewController : UIViewController
 {
-    SWDrawViewController *swDrawViewController;
-    SWDrawAlbumViewController *swDrawAlbumViewController;
-    SWSelectDrawCanvasViewController *swSelectDrawCanvasViewController;
+    SWNavigationViewController *swNavigationViewController;
 }
-//commmit test
-@property (retain, nonatomic) SWDrawViewController *swDrawViewController;
-@property (retain, nonatomic) SWDrawAlbumViewController *swDrawAlbumViewController;
-@property (retain, nonatomic) SWSelectDrawCanvasViewController *swSelectDrawCanvasViewController;
 
--(IBAction)switchViews:(id)sender;
+@property (retain, nonatomic) SWNavigationViewController *swNavigationController;
+
+//-(IBAction)switchViews:(id)sender;
 
 @end

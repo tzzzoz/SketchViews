@@ -16,6 +16,12 @@
     UIButton *pasterTemplateButton4;
     UIButton *pasterTemplateButton5;
     UIButton *pasterTemplateButton6;
+    UIButton *pasterTemplateButton7;
+    UIButton *pasterTemplateButton8;
+    UIButton *pasterTemplateButton9;
+    UIButton *pasterTemplateButton10;
+    UIButton *pasterTemplateButton11;
+    UIButton *pasterTemplateButton12;
     UIButton *returnButton;
     
 }
@@ -27,6 +33,12 @@
 @property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton4;
 @property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton5;
 @property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton6;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton7;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton8;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton9;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton10;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton11;
+@property (nonatomic, retain) IBOutlet UIButton *pasterTemplateButton12;
 @property (nonatomic, retain) IBOutlet UIButton *returnButton;
 
 

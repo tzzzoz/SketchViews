@@ -16,6 +16,12 @@
 @synthesize pasterTemplateButton4;
 @synthesize pasterTemplateButton5;
 @synthesize pasterTemplateButton6;
+@synthesize pasterTemplateButton7;
+@synthesize pasterTemplateButton8;
+@synthesize pasterTemplateButton9;
+@synthesize pasterTemplateButton10;
+@synthesize pasterTemplateButton11;
+@synthesize pasterTemplateButton12;
 @synthesize returnButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
