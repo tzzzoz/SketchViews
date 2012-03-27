@@ -11,7 +11,7 @@
 @interface SWNavigationViewController : UIViewController{
     UIImageView *NVCbackground;
     UIButton *NVCpasterWonderlandButton;
-    UIButton *NVCdrawViewButton;
+    UIButton *NVCdrawView;
     UIButton *NVCdrawAlbumButton;
     UIButton *sketchWonderlandImageView;
 }
