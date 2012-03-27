@@ -12,6 +12,7 @@
     UIImageView *NVCbackground;
     UIButton *NVCpasterWonderlandButton;
     UIButton *NVCdrawViewButton;
+    //..........
     UIButton *NVCdrawAlbumButton;
     UIButton *sketchWonderlandImageView;
 }
