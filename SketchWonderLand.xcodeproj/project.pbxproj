@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180C51CC151B4ADE00792551 /* enterAlumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 180C51CB151B4ADE00792551 /* enterAlumButton.png */; };
+		18B33AF414F5049B00718228 /* SWSelectDrawCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B33AF214F5049B00718228 /* SWSelectDrawCanvasViewController.m */; };
+		18B33AF514F5049B00718228 /* SWSelectDrawCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B33AF314F5049B00718228 /* SWSelectDrawCanvasViewController.xib */; };
+		18BADDAE14C2A0B90042A8FF /* SWDrawAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BADDAC14C2A0B90042A8FF /* SWDrawAlbumViewController.m */; };
+		18BADDAF14C2A0B90042A8FF /* SWDrawAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDAD14C2A0B90042A8FF /* SWDrawAlbumViewController.xib */; };
+		18BADDB414C2A1540042A8FF /* butterfly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDB314C2A1540042A8FF /* butterfly1.png */; };
+		18BADDB614C2A15C0042A8FF /* butterfly2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDB514C2A15C0042A8FF /* butterfly2.png */; };
+		18BADDB814C2A1620042A8FF /* DAVCalbum.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDB714C2A1620042A8FF /* DAVCalbum.png */; };
+		18BADDC114C2A1720042A8FF /* SWgrayMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDB914C2A1720042A8FF /* SWgrayMask.png */; };
+		18BADDC214C2A1720042A8FF /* DAVCdeleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBA14C2A1720042A8FF /* DAVCdeleteButton.png */; };
+		18BADDC314C2A1720042A8FF /* DAVCdeleteOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBB14C2A1720042A8FF /* DAVCdeleteOnButton.png */; };
+		18BADDC414C2A1720042A8FF /* DAVCdrawWork1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBC14C2A1720042A8FF /* DAVCdrawWork1.png */; };
+		18BADDC514C2A1720042A8FF /* DAVCreturnOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBD14C2A1720042A8FF /* DAVCreturnOnButton.png */; };
+		18BADDC614C2A1720042A8FF /* DAVCeditButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBE14C2A1720042A8FF /* DAVCeditButton.png */; };
+		18BADDC714C2A1720042A8FF /* DAVCeditOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDBF14C2A1720042A8FF /* DAVCeditOnButton.png */; };
+		18BADDC814C2A1720042A8FF /* DAVCreturnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BADDC014C2A1720042A8FF /* DAVCreturnButton.png */; };
+		18C141DC1519DB5300632778 /* pasterTemplateButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D01519DB5300632778 /* pasterTemplateButton1.png */; };
+		18C141DD1519DB5300632778 /* pasterTemplateButton10.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D11519DB5300632778 /* pasterTemplateButton10.png */; };
+		18C141DE1519DB5300632778 /* pasterTemplateButton11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D21519DB5300632778 /* pasterTemplateButton11.png */; };
+		18C141DF1519DB5300632778 /* pasterTemplateButton12.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D31519DB5300632778 /* pasterTemplateButton12.png */; };
+		18C141E01519DB5300632778 /* pasterTemplateButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D41519DB5300632778 /* pasterTemplateButton2.png */; };
+		18C141E11519DB5300632778 /* pasterTemplateButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D51519DB5300632778 /* pasterTemplateButton3.png */; };
+		18C141E21519DB5300632778 /* pasterTemplateButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D61519DB5300632778 /* pasterTemplateButton4.png */; };
+		18C141E31519DB5300632778 /* pasterTemplateButton5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D71519DB5300632778 /* pasterTemplateButton5.png */; };
+		18C141E41519DB5300632778 /* pasterTemplateButton6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D81519DB5300632778 /* pasterTemplateButton6.png */; };
+		18C141E51519DB5300632778 /* pasterTemplateButton7.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D91519DB5300632778 /* pasterTemplateButton7.png */; };
+		18C141E61519DB5300632778 /* pasterTemplateButton8.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141DA1519DB5300632778 /* pasterTemplateButton8.png */; };
+		18C141E71519DB5300632778 /* pasterTemplateButton9.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141DB1519DB5300632778 /* pasterTemplateButton9.png */; };
+		18C88F5614DA41DB00038D1C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C88F5514DA41DB00038D1C /* CFNetwork.framework */; };
+		18C88F5914DA41EC00038D1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C88F5814DA41EC00038D1C /* QuartzCore.framework */; };
+		18C88F6514DA42FB00038D1C /* AFItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C88F5F14DA42FB00038D1C /* AFItemView.m */; };
+		18C88F6614DA42FB00038D1C /* AFOpenFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C88F6214DA42FB00038D1C /* AFOpenFlowView.m */; };
+		18C88F6714DA42FB00038D1C /* AFUIImageReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C88F6414DA42FB00038D1C /* AFUIImageReflection.m */; };
+		18C88F7014DA439300038D1C /* DrawCanvas1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6914DA439300038D1C /* DrawCanvas1.png */; };
+		18C88F7114DA439300038D1C /* DrawCanvas2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6A14DA439300038D1C /* DrawCanvas2.png */; };
+		18C88F7214DA439300038D1C /* DrawCanvas3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6B14DA439300038D1C /* DrawCanvas3.png */; };
+		18C88F7314DA439300038D1C /* DrawCanvas4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6C14DA439300038D1C /* DrawCanvas4.png */; };
+		18C88F7414DA439300038D1C /* DrawCanvas5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6D14DA439300038D1C /* DrawCanvas5.png */; };
+		18C88F7514DA439300038D1C /* DrawCanvas6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6E14DA439300038D1C /* DrawCanvas6.png */; };
+		18C88F7614DA439300038D1C /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C88F6F14DA439300038D1C /* Background.png */; };
+		18D451A51519CF6D0020FF29 /* geometryPasterLibraryImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4518D1519CF6D0020FF29 /* geometryPasterLibraryImageView.png */; };
+		18D451A61519CF6D0020FF29 /* pasterTemplateImageView.psd in Resources */ = {isa = PBXBuildFile; fileRef = 18D4518F1519CF6D0020FF29 /* pasterTemplateImageView.psd */; };
+		18D451A71519CF6D0020FF29 /* pasterTemplateImageView1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451901519CF6D0020FF29 /* pasterTemplateImageView1.png */; };
+		18D451A81519CF6D0020FF29 /* pasterTemplateImageView10.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451911519CF6D0020FF29 /* pasterTemplateImageView10.png */; };
+		18D451A91519CF6D0020FF29 /* pasterTemplateImageView11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451921519CF6D0020FF29 /* pasterTemplateImageView11.png */; };
+		18D451AA1519CF6D0020FF29 /* pasterTemplateImageView12.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451931519CF6D0020FF29 /* pasterTemplateImageView12.png */; };
+		18D451AB1519CF6D0020FF29 /* pasterTemplateImageView2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451941519CF6D0020FF29 /* pasterTemplateImageView2.png */; };
+		18D451AC1519CF6D0020FF29 /* pasterTemplateImageView3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451951519CF6D0020FF29 /* pasterTemplateImageView3.png */; };
+		18D451AD1519CF6D0020FF29 /* pasterTemplateImageView4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451961519CF6D0020FF29 /* pasterTemplateImageView4.png */; };
+		18D451AE1519CF6D0020FF29 /* pasterTemplateImageView5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451971519CF6D0020FF29 /* pasterTemplateImageView5.png */; };
+		18D451AF1519CF6D0020FF29 /* pasterTemplateImageView6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451981519CF6D0020FF29 /* pasterTemplateImageView6.png */; };
+		18D451B01519CF6D0020FF29 /* pasterTemplateImageView7.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451991519CF6D0020FF29 /* pasterTemplateImageView7.png */; };
+		18D451B11519CF6D0020FF29 /* pasterTemplateImageView8.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4519A1519CF6D0020FF29 /* pasterTemplateImageView8.png */; };
+		18D451B21519CF6D0020FF29 /* pasterTemplateImageView9.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4519B1519CF6D0020FF29 /* pasterTemplateImageView9.png */; };
+		18D451B31519CF6D0020FF29 /* uncreateCirclePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4519D1519CF6D0020FF29 /* uncreateCirclePasterButton.png */; };
+		18D451B41519CF6D0020FF29 /* uncreateEllipsePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4519E1519CF6D0020FF29 /* uncreateEllipsePasterButton.png */; };
+		18D451B51519CF6D0020FF29 /* uncreateGeometryPasterButton.psd in Resources */ = {isa = PBXBuildFile; fileRef = 18D4519F1519CF6D0020FF29 /* uncreateGeometryPasterButton.psd */; };
+		18D451B61519CF6D0020FF29 /* uncreatePentaclePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451A01519CF6D0020FF29 /* uncreatePentaclePasterButton.png */; };
+		18D451B71519CF6D0020FF29 /* uncreateRectanglePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451A11519CF6D0020FF29 /* uncreateRectanglePasterButton.png */; };
+		18D451B81519CF6D0020FF29 /* uncreateSquarePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451A21519CF6D0020FF29 /* uncreateSquarePasterButton.png */; };
+		18D451B91519CF6D0020FF29 /* uncreateTrapeziumPasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451A31519CF6D0020FF29 /* uncreateTrapeziumPasterButton.png */; };
+		18D451BA1519CF6D0020FF29 /* uncreateTrianglePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D451A41519CF6D0020FF29 /* uncreateTrianglePasterButton.png */; };
+		18E6923B15172C400076E1EB /* SWNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6923915172C400076E1EB /* SWNavigationViewController.m */; };
+		18E6923C15172C400076E1EB /* SWNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E6923A15172C400076E1EB /* SWNavigationViewController.xib */; };
+		18E6924415172CF30076E1EB /* backgroundImageViewNV.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6923F15172CF30076E1EB /* backgroundImageViewNV.png */; };
+		18E6924515172CF30076E1EB /* drawAlbumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6924015172CF30076E1EB /* drawAlbumButton.png */; };
+		18E6924615172CF30076E1EB /* drawViewButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6924115172CF30076E1EB /* drawViewButton.png */; };
+		18E6924715172CF30076E1EB /* pasterWonderLandButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6924215172CF30076E1EB /* pasterWonderLandButton.png */; };
+		18E6924815172CF30076E1EB /* sketchWonderlandImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6924315172CF30076E1EB /* sketchWonderlandImageView.png */; };
+		18EB664515187E6B00F8CAA1 /* backgroundImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB663B15187E6B00F8CAA1 /* backgroundImageView.png */; };
+		18EB664C15187E6B00F8CAA1 /* returnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB664415187E6B00F8CAA1 /* returnButton.png */; };
+		18EB665615187F2200F8CAA1 /* SWPasterWonderlandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */; };
+		18EB665715187F2200F8CAA1 /* SWPasterWonderlandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */; };
+		18EB665B151892D400F8CAA1 /* SWDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB6659151892D400F8CAA1 /* SWDrawViewController.m */; };
+		18EB665C151892D400F8CAA1 /* SWDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */; };
+		18EB667A1518930E00F8CAA1 /* colorButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665F1518930E00F8CAA1 /* colorButton1.png */; };
+		18EB667B1518930E00F8CAA1 /* colorButton10.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66601518930E00F8CAA1 /* colorButton10.png */; };
+		18EB667C1518930E00F8CAA1 /* colorButton11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66611518930E00F8CAA1 /* colorButton11.png */; };
+		18EB667D1518930E00F8CAA1 /* colorButton12.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66621518930E00F8CAA1 /* colorButton12.png */; };
+		18EB667E1518930E00F8CAA1 /* colorButton13.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66631518930E00F8CAA1 /* colorButton13.png */; };
+		18EB667F1518930E00F8CAA1 /* colorButton14.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66641518930E00F8CAA1 /* colorButton14.png */; };
+		18EB66801518930E00F8CAA1 /* colorButton15.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66651518930E00F8CAA1 /* colorButton15.png */; };
+		18EB66811518930E00F8CAA1 /* colorButton16.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66661518930E00F8CAA1 /* colorButton16.png */; };
+		18EB66821518930E00F8CAA1 /* colorButton17.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66671518930E00F8CAA1 /* colorButton17.png */; };
+		18EB66831518930E00F8CAA1 /* colorButton18.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66681518930E00F8CAA1 /* colorButton18.png */; };
+		18EB66841518930E00F8CAA1 /* colorButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66691518930E00F8CAA1 /* colorButton2.png */; };
+		18EB66851518930E00F8CAA1 /* colorButton3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666A1518930E00F8CAA1 /* colorButton3.png */; };
+		18EB66861518930E00F8CAA1 /* colorButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666B1518930E00F8CAA1 /* colorButton4.png */; };
+		18EB66871518930E00F8CAA1 /* colorButton5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666C1518930E00F8CAA1 /* colorButton5.png */; };
+		18EB66881518930E00F8CAA1 /* colorButton6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666D1518930E00F8CAA1 /* colorButton6.png */; };
+		18EB66891518930E00F8CAA1 /* colorButton7.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666E1518930E00F8CAA1 /* colorButton7.png */; };
+		18EB668A1518930E00F8CAA1 /* colorButton8.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB666F1518930E00F8CAA1 /* colorButton8.png */; };
+		18EB668B1518930E00F8CAA1 /* colorButton9.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66701518930E00F8CAA1 /* colorButton9.png */; };
+		18EB668C1518930E00F8CAA1 /* DVCbackgroundImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66711518930E00F8CAA1 /* DVCbackgroundImageView.png */; };
+		18EB668D1518930E00F8CAA1 /* grayMaskImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66731518930E00F8CAA1 /* grayMaskImageView.png */; };
+		18EB668E1518930E00F8CAA1 /* redoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66741518930E00F8CAA1 /* redoButton.png */; };
+		18EB668F1518930E00F8CAA1 /* removeGeometryPasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66751518930E00F8CAA1 /* removeGeometryPasterButton.png */; };
+		18EB66901518930E00F8CAA1 /* returnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66761518930E00F8CAA1 /* returnButton.png */; };
+		18EB66911518930E00F8CAA1 /* saveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66771518930E00F8CAA1 /* saveButton.png */; };
+		18EB66921518930E00F8CAA1 /* undoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66781518930E00F8CAA1 /* undoButton.png */; };
+		18EB66931518930E00F8CAA1 /* 彩笔.psd in Resources */ = {isa = PBXBuildFile; fileRef = 18EB66791518930E00F8CAA1 /* 彩笔.psd */; };
+		A307124914BC38BA00CB00E4 /* SWPromptDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A307124714BC38BA00CB00E4 /* SWPromptDialogViewController.m */; };
+		A307124A14BC38BA00CB00E4 /* SWPromptDialogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A307124814BC38BA00CB00E4 /* SWPromptDialogViewController.xib */; };
+		A3643C3F14BC2558004EECBC /* DVCclearCanvasButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C1714BC2558004EECBC /* DVCclearCanvasButton.png */; };
+		A3643C4014BC2558004EECBC /* DVCclearCanvasOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C1814BC2558004EECBC /* DVCclearCanvasOnButton.png */; };
+		A3643C5014BC2558004EECBC /* DVCdrawCanvas1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2814BC2558004EECBC /* DVCdrawCanvas1.png */; };
+		A3643C5114BC2558004EECBC /* DVCdrawCanvas2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2914BC2558004EECBC /* DVCdrawCanvas2.png */; };
+		A3643C5214BC2558004EECBC /* DVCdrawCanvas3.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2A14BC2558004EECBC /* DVCdrawCanvas3.png */; };
+		A3643C5314BC2558004EECBC /* DVCearaserButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2B14BC2558004EECBC /* DVCearaserButton.png */; };
+		A3643C5414BC2558004EECBC /* DVCearaserOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2C14BC2558004EECBC /* DVCearaserOnButton.png */; };
+		A3643C5514BC2558004EECBC /* DVCeditToolKitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2D14BC2558004EECBC /* DVCeditToolKitButton.png */; };
+		A3643C5614BC2558004EECBC /* DVCeditToolKitOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2E14BC2558004EECBC /* DVCeditToolKitOnButton.png */; };
+		A3643C5714BC2558004EECBC /* DVCenterAlbumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C2F14BC2558004EECBC /* DVCenterAlbumButton.png */; };
+		A3643C5814BC2558004EECBC /* DVCenterAlbumOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3014BC2558004EECBC /* DVCenterAlbumOnButton.png */; };
+		A3643C5914BC2558004EECBC /* DVClargePenSizeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3114BC2558004EECBC /* DVClargePenSizeButton.png */; };
+		A3643C5A14BC2558004EECBC /* DVClargePenSizeOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3214BC2558004EECBC /* DVClargePenSizeOnButton.png */; };
+		A3643C5B14BC2558004EECBC /* DVClittlePenSizeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3314BC2558004EECBC /* DVClittlePenSizeButton.png */; };
+		A3643C5C14BC2558004EECBC /* DVClittlePenSizeOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3414BC2558004EECBC /* DVClittlePenSizeOnButton.png */; };
+		A3643C5D14BC2558004EECBC /* DVCmiddlePenSizeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3514BC2558004EECBC /* DVCmiddlePenSizeButton.png */; };
+		A3643C5E14BC2558004EECBC /* DVCmiddlePenSizeOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3614BC2558004EECBC /* DVCmiddlePenSizeOnButton.png */; };
+		A3643C5F14BC2558004EECBC /* DVCredoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3714BC2558004EECBC /* DVCredoButton.png */; };
+		A3643C6014BC2558004EECBC /* DVCredoOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3814BC2558004EECBC /* DVCredoOnButton.png */; };
+		A3643C6114BC2558004EECBC /* DVCreturnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3914BC2558004EECBC /* DVCreturnButton.png */; };
+		A3643C6214BC2558004EECBC /* DVCreturnOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3A14BC2558004EECBC /* DVCreturnOnButton.png */; };
+		A3643C6314BC2558004EECBC /* DVCsaveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3B14BC2558004EECBC /* DVCsaveButton.png */; };
+		A3643C6414BC2558004EECBC /* DVCsaveOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3C14BC2558004EECBC /* DVCsaveOnButton.png */; };
+		A3643C6514BC2558004EECBC /* DVCundoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3D14BC2558004EECBC /* DVCundoButton.png */; };
+		A3643C6614BC2558004EECBC /* DVCundoOnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C3E14BC2558004EECBC /* DVCundoOnButton.png */; };
+		A3643C6814BC259A004EECBC /* SWbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A3643C6714BC259A004EECBC /* SWbackground.png */; };
+		A3B5BD5514BC200500CA3006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B5BD5414BC200500CA3006 /* UIKit.framework */; };
+		A3B5BD5714BC200500CA3006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B5BD5614BC200500CA3006 /* Foundation.framework */; };
+		A3B5BD5914BC200500CA3006 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B5BD5814BC200500CA3006 /* CoreGraphics.framework */; };
+		A3B5BD5F14BC200500CA3006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B5BD5D14BC200500CA3006 /* InfoPlist.strings */; };
+		A3B5BD6114BC200500CA3006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD6014BC200500CA3006 /* main.m */; };
+		A3B5BD6514BC200500CA3006 /* SketchWonderLandAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD6414BC200500CA3006 /* SketchWonderLandAppDelegate.m */; };
+		A3B5BD6814BC200500CA3006 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B5BD6614BC200500CA3006 /* MainWindow.xib */; };
+		A3B5BD6B14BC200500CA3006 /* SketchWonderLandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B5BD6A14BC200500CA3006 /* SketchWonderLandViewController.m */; };
+		A3B5BD6E14BC200500CA3006 /* SketchWonderLandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B5BD6C14BC200500CA3006 /* SketchWonderLandViewController.xib */; };
+		A3C8DAD914BC27D00093CCB5 /* DVCblueButton .png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACA14BC27D00093CCB5 /* DVCblueButton .png */; };
+		A3C8DADA14BC27D00093CCB5 /* DVCdarkBlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACB14BC27D00093CCB5 /* DVCdarkBlueButton.png */; };
+		A3C8DADB14BC27D00093CCB5 /* DVCdarkGreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACC14BC27D00093CCB5 /* DVCdarkGreenButton.png */; };
+		A3C8DADC14BC27D00093CCB5 /* DVCdarkPurpleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACD14BC27D00093CCB5 /* DVCdarkPurpleButton.png */; };
+		A3C8DADD14BC27D00093CCB5 /* DVCdarkRedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACE14BC27D00093CCB5 /* DVCdarkRedButton.png */; };
+		A3C8DADE14BC27D00093CCB5 /* DVCdarkYellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DACF14BC27D00093CCB5 /* DVCdarkYellowButton.png */; };
+		A3C8DADF14BC27D00093CCB5 /* DVCgreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD014BC27D00093CCB5 /* DVCgreenButton.png */; };
+		A3C8DAE014BC27D00093CCB5 /* DVClightBlueButton .png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD114BC27D00093CCB5 /* DVClightBlueButton .png */; };
+		A3C8DAE114BC27D00093CCB5 /* DVClightGreenutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD214BC27D00093CCB5 /* DVClightGreenutton.png */; };
+		A3C8DAE214BC27D00093CCB5 /* DVClightPurpleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD314BC27D00093CCB5 /* DVClightPurpleButton.png */; };
+		A3C8DAE314BC27D00093CCB5 /* DVClightRedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD414BC27D00093CCB5 /* DVClightRedButton.png */; };
+		A3C8DAE414BC27D00093CCB5 /* DVClightYellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD514BC27D00093CCB5 /* DVClightYellowButton.png */; };
+		A3C8DAE514BC27D00093CCB5 /* DVCPurpleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD614BC27D00093CCB5 /* DVCPurpleButton.png */; };
+		A3C8DAE614BC27D00093CCB5 /* DVCredButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD714BC27D00093CCB5 /* DVCredButton.png */; };
+		A3C8DAE714BC27D00093CCB5 /* DVCyellowButton .png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAD814BC27D00093CCB5 /* DVCyellowButton .png */; };
+		A3C8DAE914BC2B850093CCB5 /* DVCblackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAE814BC2B850093CCB5 /* DVCblackButton.png */; };
+		A3C8DAEE14BC2DC80093CCB5 /* PDbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAEB14BC2DC80093CCB5 /* PDbackground.png */; };
+		A3C8DAEF14BC2DC80093CCB5 /* PDcancleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAEC14BC2DC80093CCB5 /* PDcancleButton.png */; };
+		A3C8DAF014BC2DC80093CCB5 /* PDyesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C8DAED14BC2DC80093CCB5 /* PDyesButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180C51CB151B4ADE00792551 /* enterAlumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enterAlumButton.png; sourceTree = "<group>"; };
+		18B33AF114F5049B00718228 /* SWSelectDrawCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSelectDrawCanvasViewController.h; path = ../SWSelectDrawCanvasViewController.h; sourceTree = "<group>"; };
+		18B33AF214F5049B00718228 /* SWSelectDrawCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSelectDrawCanvasViewController.m; path = ../SWSelectDrawCanvasViewController.m; sourceTree = "<group>"; };
+		18B33AF314F5049B00718228 /* SWSelectDrawCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SWSelectDrawCanvasViewController.xib; path = ../SWSelectDrawCanvasViewController.xib; sourceTree = "<group>"; };
+		18BADDAB14C2A0B90042A8FF /* SWDrawAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDrawAlbumViewController.h; sourceTree = "<group>"; };
+		18BADDAC14C2A0B90042A8FF /* SWDrawAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDrawAlbumViewController.m; sourceTree = "<group>"; };
+		18BADDAD14C2A0B90042A8FF /* SWDrawAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWDrawAlbumViewController.xib; sourceTree = "<group>"; };
+		18BADDB314C2A1540042A8FF /* butterfly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly1.png; sourceTree = "<group>"; };
+		18BADDB514C2A15C0042A8FF /* butterfly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly2.png; sourceTree = "<group>"; };
+		18BADDB714C2A1620042A8FF /* DAVCalbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCalbum.png; sourceTree = "<group>"; };
+		18BADDB914C2A1720042A8FF /* SWgrayMask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWgrayMask.png; sourceTree = "<group>"; };
+		18BADDBA14C2A1720042A8FF /* DAVCdeleteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCdeleteButton.png; sourceTree = "<group>"; };
+		18BADDBB14C2A1720042A8FF /* DAVCdeleteOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCdeleteOnButton.png; sourceTree = "<group>"; };
+		18BADDBC14C2A1720042A8FF /* DAVCdrawWork1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCdrawWork1.png; sourceTree = "<group>"; };
+		18BADDBD14C2A1720042A8FF /* DAVCreturnOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCreturnOnButton.png; sourceTree = "<group>"; };
+		18BADDBE14C2A1720042A8FF /* DAVCeditButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCeditButton.png; sourceTree = "<group>"; };
+		18BADDBF14C2A1720042A8FF /* DAVCeditOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCeditOnButton.png; sourceTree = "<group>"; };
+		18BADDC014C2A1720042A8FF /* DAVCreturnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DAVCreturnButton.png; sourceTree = "<group>"; };
+		18C141D01519DB5300632778 /* pasterTemplateButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton1.png; sourceTree = "<group>"; };
+		18C141D11519DB5300632778 /* pasterTemplateButton10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton10.png; sourceTree = "<group>"; };
+		18C141D21519DB5300632778 /* pasterTemplateButton11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton11.png; sourceTree = "<group>"; };
+		18C141D31519DB5300632778 /* pasterTemplateButton12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton12.png; sourceTree = "<group>"; };
+		18C141D41519DB5300632778 /* pasterTemplateButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton2.png; sourceTree = "<group>"; };
+		18C141D51519DB5300632778 /* pasterTemplateButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton3.png; sourceTree = "<group>"; };
+		18C141D61519DB5300632778 /* pasterTemplateButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton4.png; sourceTree = "<group>"; };
+		18C141D71519DB5300632778 /* pasterTemplateButton5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton5.png; sourceTree = "<group>"; };
+		18C141D81519DB5300632778 /* pasterTemplateButton6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton6.png; sourceTree = "<group>"; };
+		18C141D91519DB5300632778 /* pasterTemplateButton7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton7.png; sourceTree = "<group>"; };
+		18C141DA1519DB5300632778 /* pasterTemplateButton8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton8.png; sourceTree = "<group>"; };
+		18C141DB1519DB5300632778 /* pasterTemplateButton9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton9.png; sourceTree = "<group>"; };
+		18C88F5514DA41DB00038D1C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18C88F5814DA41EC00038D1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18C88F5E14DA42DE00038D1C /* AFItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFItemView.h; sourceTree = "<group>"; };
+		18C88F5F14DA42FB00038D1C /* AFItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFItemView.m; sourceTree = "<group>"; };
+		18C88F6014DA42FB00038D1C /* AFOpenFlowConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowConstants.h; sourceTree = "<group>"; };
+		18C88F6114DA42FB00038D1C /* AFOpenFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowView.h; sourceTree = "<group>"; };
+		18C88F6214DA42FB00038D1C /* AFOpenFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenFlowView.m; sourceTree = "<group>"; };
+		18C88F6314DA42FB00038D1C /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		18C88F6414DA42FB00038D1C /* AFUIImageReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIImageReflection.m; sourceTree = "<group>"; };
+		18C88F6914DA439300038D1C /* DrawCanvas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas1.png; sourceTree = "<group>"; };
+		18C88F6A14DA439300038D1C /* DrawCanvas2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas2.png; sourceTree = "<group>"; };
+		18C88F6B14DA439300038D1C /* DrawCanvas3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas3.png; sourceTree = "<group>"; };
+		18C88F6C14DA439300038D1C /* DrawCanvas4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas4.png; sourceTree = "<group>"; };
+		18C88F6D14DA439300038D1C /* DrawCanvas5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas5.png; sourceTree = "<group>"; };
+		18C88F6E14DA439300038D1C /* DrawCanvas6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawCanvas6.png; sourceTree = "<group>"; };
+		18C88F6F14DA439300038D1C /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		18D4518D1519CF6D0020FF29 /* geometryPasterLibraryImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geometryPasterLibraryImageView.png; sourceTree = "<group>"; };
+		18D4518F1519CF6D0020FF29 /* pasterTemplateImageView.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = pasterTemplateImageView.psd; sourceTree = "<group>"; };
+		18D451901519CF6D0020FF29 /* pasterTemplateImageView1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView1.png; sourceTree = "<group>"; };
+		18D451911519CF6D0020FF29 /* pasterTemplateImageView10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView10.png; sourceTree = "<group>"; };
+		18D451921519CF6D0020FF29 /* pasterTemplateImageView11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView11.png; sourceTree = "<group>"; };
+		18D451931519CF6D0020FF29 /* pasterTemplateImageView12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView12.png; sourceTree = "<group>"; };
+		18D451941519CF6D0020FF29 /* pasterTemplateImageView2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView2.png; sourceTree = "<group>"; };
+		18D451951519CF6D0020FF29 /* pasterTemplateImageView3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView3.png; sourceTree = "<group>"; };
+		18D451961519CF6D0020FF29 /* pasterTemplateImageView4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView4.png; sourceTree = "<group>"; };
+		18D451971519CF6D0020FF29 /* pasterTemplateImageView5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView5.png; sourceTree = "<group>"; };
+		18D451981519CF6D0020FF29 /* pasterTemplateImageView6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView6.png; sourceTree = "<group>"; };
+		18D451991519CF6D0020FF29 /* pasterTemplateImageView7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView7.png; sourceTree = "<group>"; };
+		18D4519A1519CF6D0020FF29 /* pasterTemplateImageView8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView8.png; sourceTree = "<group>"; };
+		18D4519B1519CF6D0020FF29 /* pasterTemplateImageView9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateImageView9.png; sourceTree = "<group>"; };
+		18D4519D1519CF6D0020FF29 /* uncreateCirclePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateCirclePasterButton.png; sourceTree = "<group>"; };
+		18D4519E1519CF6D0020FF29 /* uncreateEllipsePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateEllipsePasterButton.png; sourceTree = "<group>"; };
+		18D4519F1519CF6D0020FF29 /* uncreateGeometryPasterButton.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = uncreateGeometryPasterButton.psd; sourceTree = "<group>"; };
+		18D451A01519CF6D0020FF29 /* uncreatePentaclePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreatePentaclePasterButton.png; sourceTree = "<group>"; };
+		18D451A11519CF6D0020FF29 /* uncreateRectanglePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateRectanglePasterButton.png; sourceTree = "<group>"; };
+		18D451A21519CF6D0020FF29 /* uncreateSquarePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateSquarePasterButton.png; sourceTree = "<group>"; };
+		18D451A31519CF6D0020FF29 /* uncreateTrapeziumPasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateTrapeziumPasterButton.png; sourceTree = "<group>"; };
+		18D451A41519CF6D0020FF29 /* uncreateTrianglePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncreateTrianglePasterButton.png; sourceTree = "<group>"; };
+		18E6923815172C400076E1EB /* SWNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationViewController.h; sourceTree = "<group>"; };
+		18E6923915172C400076E1EB /* SWNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationViewController.m; sourceTree = "<group>"; };
+		18E6923A15172C400076E1EB /* SWNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWNavigationViewController.xib; sourceTree = "<group>"; };
+		18E6923F15172CF30076E1EB /* backgroundImageViewNV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImageViewNV.png; sourceTree = "<group>"; };
+		18E6924015172CF30076E1EB /* drawAlbumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawAlbumButton.png; sourceTree = "<group>"; };
+		18E6924115172CF30076E1EB /* drawViewButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawViewButton.png; sourceTree = "<group>"; };
+		18E6924215172CF30076E1EB /* pasterWonderLandButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterWonderLandButton.png; sourceTree = "<group>"; };
+		18E6924315172CF30076E1EB /* sketchWonderlandImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sketchWonderlandImageView.png; sourceTree = "<group>"; };
+		18EB663B15187E6B00F8CAA1 /* backgroundImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImageView.png; sourceTree = "<group>"; };
+		18EB664415187E6B00F8CAA1 /* returnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnButton.png; sourceTree = "<group>"; };
+		18EB665315187F2200F8CAA1 /* SWPasterWonderlandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPasterWonderlandViewController.h; sourceTree = "<group>"; };
+		18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPasterWonderlandViewController.m; sourceTree = "<group>"; };
+		18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWPasterWonderlandViewController.xib; sourceTree = "<group>"; };
+		18EB6658151892D400F8CAA1 /* SWDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDrawViewController.h; sourceTree = "<group>"; };
+		18EB6659151892D400F8CAA1 /* SWDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDrawViewController.m; sourceTree = "<group>"; };
+		18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWDrawViewController.xib; sourceTree = "<group>"; };
+		18EB665F1518930E00F8CAA1 /* colorButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton1.png; sourceTree = "<group>"; };
+		18EB66601518930E00F8CAA1 /* colorButton10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton10.png; sourceTree = "<group>"; };
+		18EB66611518930E00F8CAA1 /* colorButton11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton11.png; sourceTree = "<group>"; };
+		18EB66621518930E00F8CAA1 /* colorButton12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton12.png; sourceTree = "<group>"; };
+		18EB66631518930E00F8CAA1 /* colorButton13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton13.png; sourceTree = "<group>"; };
+		18EB66641518930E00F8CAA1 /* colorButton14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton14.png; sourceTree = "<group>"; };
+		18EB66651518930E00F8CAA1 /* colorButton15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton15.png; sourceTree = "<group>"; };
+		18EB66661518930E00F8CAA1 /* colorButton16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton16.png; sourceTree = "<group>"; };
+		18EB66671518930E00F8CAA1 /* colorButton17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton17.png; sourceTree = "<group>"; };
+		18EB66681518930E00F8CAA1 /* colorButton18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton18.png; sourceTree = "<group>"; };
+		18EB66691518930E00F8CAA1 /* colorButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton2.png; sourceTree = "<group>"; };
+		18EB666A1518930E00F8CAA1 /* colorButton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton3.png; sourceTree = "<group>"; };
+		18EB666B1518930E00F8CAA1 /* colorButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton4.png; sourceTree = "<group>"; };
+		18EB666C1518930E00F8CAA1 /* colorButton5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton5.png; sourceTree = "<group>"; };
+		18EB666D1518930E00F8CAA1 /* colorButton6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton6.png; sourceTree = "<group>"; };
+		18EB666E1518930E00F8CAA1 /* colorButton7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton7.png; sourceTree = "<group>"; };
+		18EB666F1518930E00F8CAA1 /* colorButton8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton8.png; sourceTree = "<group>"; };
+		18EB66701518930E00F8CAA1 /* colorButton9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorButton9.png; sourceTree = "<group>"; };
+		18EB66711518930E00F8CAA1 /* DVCbackgroundImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCbackgroundImageView.png; sourceTree = "<group>"; };
+		18EB66731518930E00F8CAA1 /* grayMaskImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayMaskImageView.png; sourceTree = "<group>"; };
+		18EB66741518930E00F8CAA1 /* redoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redoButton.png; sourceTree = "<group>"; };
+		18EB66751518930E00F8CAA1 /* removeGeometryPasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = removeGeometryPasterButton.png; sourceTree = "<group>"; };
+		18EB66761518930E00F8CAA1 /* returnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnButton.png; sourceTree = "<group>"; };
+		18EB66771518930E00F8CAA1 /* saveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveButton.png; sourceTree = "<group>"; };
+		18EB66781518930E00F8CAA1 /* undoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undoButton.png; sourceTree = "<group>"; };
+		18EB66791518930E00F8CAA1 /* 彩笔.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "彩笔.psd"; sourceTree = "<group>"; };
+		A307124614BC38BA00CB00E4 /* SWPromptDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPromptDialogViewController.h; sourceTree = "<group>"; };
+		A307124714BC38BA00CB00E4 /* SWPromptDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPromptDialogViewController.m; sourceTree = "<group>"; };
+		A307124814BC38BA00CB00E4 /* SWPromptDialogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWPromptDialogViewController.xib; sourceTree = "<group>"; };
+		A3643C1714BC2558004EECBC /* DVCclearCanvasButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCclearCanvasButton.png; sourceTree = "<group>"; };
+		A3643C1814BC2558004EECBC /* DVCclearCanvasOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCclearCanvasOnButton.png; sourceTree = "<group>"; };
+		A3643C2814BC2558004EECBC /* DVCdrawCanvas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdrawCanvas1.png; sourceTree = "<group>"; };
+		A3643C2914BC2558004EECBC /* DVCdrawCanvas2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdrawCanvas2.png; sourceTree = "<group>"; };
+		A3643C2A14BC2558004EECBC /* DVCdrawCanvas3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdrawCanvas3.png; sourceTree = "<group>"; };
+		A3643C2B14BC2558004EECBC /* DVCearaserButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCearaserButton.png; sourceTree = "<group>"; };
+		A3643C2C14BC2558004EECBC /* DVCearaserOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCearaserOnButton.png; sourceTree = "<group>"; };
+		A3643C2D14BC2558004EECBC /* DVCeditToolKitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCeditToolKitButton.png; sourceTree = "<group>"; };
+		A3643C2E14BC2558004EECBC /* DVCeditToolKitOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCeditToolKitOnButton.png; sourceTree = "<group>"; };
+		A3643C2F14BC2558004EECBC /* DVCenterAlbumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCenterAlbumButton.png; sourceTree = "<group>"; };
+		A3643C3014BC2558004EECBC /* DVCenterAlbumOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCenterAlbumOnButton.png; sourceTree = "<group>"; };
+		A3643C3114BC2558004EECBC /* DVClargePenSizeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClargePenSizeButton.png; sourceTree = "<group>"; };
+		A3643C3214BC2558004EECBC /* DVClargePenSizeOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClargePenSizeOnButton.png; sourceTree = "<group>"; };
+		A3643C3314BC2558004EECBC /* DVClittlePenSizeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClittlePenSizeButton.png; sourceTree = "<group>"; };
+		A3643C3414BC2558004EECBC /* DVClittlePenSizeOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClittlePenSizeOnButton.png; sourceTree = "<group>"; };
+		A3643C3514BC2558004EECBC /* DVCmiddlePenSizeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCmiddlePenSizeButton.png; sourceTree = "<group>"; };
+		A3643C3614BC2558004EECBC /* DVCmiddlePenSizeOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCmiddlePenSizeOnButton.png; sourceTree = "<group>"; };
+		A3643C3714BC2558004EECBC /* DVCredoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCredoButton.png; sourceTree = "<group>"; };
+		A3643C3814BC2558004EECBC /* DVCredoOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCredoOnButton.png; sourceTree = "<group>"; };
+		A3643C3914BC2558004EECBC /* DVCreturnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCreturnButton.png; sourceTree = "<group>"; };
+		A3643C3A14BC2558004EECBC /* DVCreturnOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCreturnOnButton.png; sourceTree = "<group>"; };
+		A3643C3B14BC2558004EECBC /* DVCsaveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCsaveButton.png; sourceTree = "<group>"; };
+		A3643C3C14BC2558004EECBC /* DVCsaveOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCsaveOnButton.png; sourceTree = "<group>"; };
+		A3643C3D14BC2558004EECBC /* DVCundoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCundoButton.png; sourceTree = "<group>"; };
+		A3643C3E14BC2558004EECBC /* DVCundoOnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCundoOnButton.png; sourceTree = "<group>"; };
+		A3643C6714BC259A004EECBC /* SWbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SWbackground.png; sourceTree = "<group>"; };
+		A3B5BD5014BC200500CA3006 /* SketchWonderLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchWonderLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B5BD5414BC200500CA3006 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3B5BD5614BC200500CA3006 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3B5BD5814BC200500CA3006 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3B5BD5C14BC200500CA3006 /* SketchWonderLand-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SketchWonderLand-Info.plist"; sourceTree = "<group>"; };
+		A3B5BD5E14BC200500CA3006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B5BD6014BC200500CA3006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B5BD6214BC200500CA3006 /* SketchWonderLand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SketchWonderLand-Prefix.pch"; sourceTree = "<group>"; };
+		A3B5BD6314BC200500CA3006 /* SketchWonderLandAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchWonderLandAppDelegate.h; sourceTree = "<group>"; };
+		A3B5BD6414BC200500CA3006 /* SketchWonderLandAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchWonderLandAppDelegate.m; sourceTree = "<group>"; };
+		A3B5BD6714BC200500CA3006 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A3B5BD6914BC200500CA3006 /* SketchWonderLandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchWonderLandViewController.h; sourceTree = "<group>"; };
+		A3B5BD6A14BC200500CA3006 /* SketchWonderLandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchWonderLandViewController.m; sourceTree = "<group>"; };
+		A3B5BD6D14BC200500CA3006 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SketchWonderLandViewController.xib; sourceTree = "<group>"; };
+		A3C8DACA14BC27D00093CCB5 /* DVCblueButton .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVCblueButton .png"; sourceTree = "<group>"; };
+		A3C8DACB14BC27D00093CCB5 /* DVCdarkBlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdarkBlueButton.png; sourceTree = "<group>"; };
+		A3C8DACC14BC27D00093CCB5 /* DVCdarkGreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdarkGreenButton.png; sourceTree = "<group>"; };
+		A3C8DACD14BC27D00093CCB5 /* DVCdarkPurpleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdarkPurpleButton.png; sourceTree = "<group>"; };
+		A3C8DACE14BC27D00093CCB5 /* DVCdarkRedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdarkRedButton.png; sourceTree = "<group>"; };
+		A3C8DACF14BC27D00093CCB5 /* DVCdarkYellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCdarkYellowButton.png; sourceTree = "<group>"; };
+		A3C8DAD014BC27D00093CCB5 /* DVCgreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCgreenButton.png; sourceTree = "<group>"; };
+		A3C8DAD114BC27D00093CCB5 /* DVClightBlueButton .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVClightBlueButton .png"; sourceTree = "<group>"; };
+		A3C8DAD214BC27D00093CCB5 /* DVClightGreenutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClightGreenutton.png; sourceTree = "<group>"; };
+		A3C8DAD314BC27D00093CCB5 /* DVClightPurpleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClightPurpleButton.png; sourceTree = "<group>"; };
+		A3C8DAD414BC27D00093CCB5 /* DVClightRedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClightRedButton.png; sourceTree = "<group>"; };
+		A3C8DAD514BC27D00093CCB5 /* DVClightYellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVClightYellowButton.png; sourceTree = "<group>"; };
+		A3C8DAD614BC27D00093CCB5 /* DVCPurpleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCPurpleButton.png; sourceTree = "<group>"; };
+		A3C8DAD714BC27D00093CCB5 /* DVCredButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCredButton.png; sourceTree = "<group>"; };
+		A3C8DAD814BC27D00093CCB5 /* DVCyellowButton .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVCyellowButton .png"; sourceTree = "<group>"; };
+		A3C8DAE814BC2B850093CCB5 /* DVCblackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCblackButton.png; sourceTree = "<group>"; };
+		A3C8DAEB14BC2DC80093CCB5 /* PDbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PDbackground.png; sourceTree = "<group>"; };
+		A3C8DAEC14BC2DC80093CCB5 /* PDcancleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PDcancleButton.png; sourceTree = "<group>"; };
+		A3C8DAED14BC2DC80093CCB5 /* PDyesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PDyesButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B5BD4D14BC200500CA3006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C88F5914DA41EC00038D1C /* QuartzCore.framework in Frameworks */,
+				18C88F5614DA41DB00038D1C /* CFNetwork.framework in Frameworks */,
+				A3B5BD5514BC200500CA3006 /* UIKit.framework in Frameworks */,
+				A3B5BD5714BC200500CA3006 /* Foundation.framework in Frameworks */,
+				A3B5BD5914BC200500CA3006 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BADDB114C2A1000042A8FF /* SWDrawAlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				18BADDB314C2A1540042A8FF /* butterfly1.png */,
+				18BADDB914C2A1720042A8FF /* SWgrayMask.png */,
+				18BADDBA14C2A1720042A8FF /* DAVCdeleteButton.png */,
+				18BADDBB14C2A1720042A8FF /* DAVCdeleteOnButton.png */,
+				18BADDBC14C2A1720042A8FF /* DAVCdrawWork1.png */,
+				18BADDBD14C2A1720042A8FF /* DAVCreturnOnButton.png */,
+				18BADDBE14C2A1720042A8FF /* DAVCeditButton.png */,
+				18BADDBF14C2A1720042A8FF /* DAVCeditOnButton.png */,
+				18BADDC014C2A1720042A8FF /* DAVCreturnButton.png */,
+				18BADDB514C2A15C0042A8FF /* butterfly2.png */,
+				18BADDB714C2A1620042A8FF /* DAVCalbum.png */,
+				A3643C6714BC259A004EECBC /* SWbackground.png */,
+			);
+			name = SWDrawAlbumView;
+			sourceTree = "<group>";
+		};
+		18C141CF1519DB5300632778 /* pasterTemplateButton */ = {
+			isa = PBXGroup;
+			children = (
+				18C141D01519DB5300632778 /* pasterTemplateButton1.png */,
+				18C141D11519DB5300632778 /* pasterTemplateButton10.png */,
+				18C141D21519DB5300632778 /* pasterTemplateButton11.png */,
+				18C141D31519DB5300632778 /* pasterTemplateButton12.png */,
+				18C141D41519DB5300632778 /* pasterTemplateButton2.png */,
+				18C141D51519DB5300632778 /* pasterTemplateButton3.png */,
+				18C141D61519DB5300632778 /* pasterTemplateButton4.png */,
+				18C141D71519DB5300632778 /* pasterTemplateButton5.png */,
+				18C141D81519DB5300632778 /* pasterTemplateButton6.png */,
+				18C141D91519DB5300632778 /* pasterTemplateButton7.png */,
+				18C141DA1519DB5300632778 /* pasterTemplateButton8.png */,
+				18C141DB1519DB5300632778 /* pasterTemplateButton9.png */,
+			);
+			path = pasterTemplateButton;
+			sourceTree = "<group>";
+		};
+		18C88F5D14DA42C000038D1C /* OpenFlow */ = {
+			isa = PBXGroup;
+			children = (
+				18C88F5F14DA42FB00038D1C /* AFItemView.m */,
+				18C88F6014DA42FB00038D1C /* AFOpenFlowConstants.h */,
+				18C88F6114DA42FB00038D1C /* AFOpenFlowView.h */,
+				18C88F6214DA42FB00038D1C /* AFOpenFlowView.m */,
+				18C88F6314DA42FB00038D1C /* AFUIImageReflection.h */,
+				18C88F6414DA42FB00038D1C /* AFUIImageReflection.m */,
+				18C88F5E14DA42DE00038D1C /* AFItemView.h */,
+			);
+			name = OpenFlow;
+			sourceTree = "<group>";
+		};
+		18C88F6814DA431B00038D1C /* SWSelectDrawCanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				18C88F6914DA439300038D1C /* DrawCanvas1.png */,
+				18C88F6A14DA439300038D1C /* DrawCanvas2.png */,
+				18C88F6B14DA439300038D1C /* DrawCanvas3.png */,
+				18C88F6C14DA439300038D1C /* DrawCanvas4.png */,
+				18C88F6D14DA439300038D1C /* DrawCanvas5.png */,
+				18C88F6E14DA439300038D1C /* DrawCanvas6.png */,
+				18C88F6F14DA439300038D1C /* Background.png */,
+			);
+			name = SWSelectDrawCanvasView;
+			sourceTree = "<group>";
+		};
+		18D4518B1519CF6D0020FF29 /* SWEditPasterTemplateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D4518C1519CF6D0020FF29 /* createdGeometryPasterButton */,
+				18D4518D1519CF6D0020FF29 /* geometryPasterLibraryImageView.png */,
+				18D4518E1519CF6D0020FF29 /* pasterTemplateImageView */,
+				18D4519C1519CF6D0020FF29 /* uncreateGeometryPasterButton */,
+			);
+			path = SWEditPasterTemplateViewController;
+			sourceTree = "<group>";
+		};
+		18D4518C1519CF6D0020FF29 /* createdGeometryPasterButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = createdGeometryPasterButton;
+			sourceTree = "<group>";
+		};
+		18D4518E1519CF6D0020FF29 /* pasterTemplateImageView */ = {
+			isa = PBXGroup;
+			children = (
+				18D4518F1519CF6D0020FF29 /* pasterTemplateImageView.psd */,
+				18D451901519CF6D0020FF29 /* pasterTemplateImageView1.png */,
+				18D451911519CF6D0020FF29 /* pasterTemplateImageView10.png */,
+				18D451921519CF6D0020FF29 /* pasterTemplateImageView11.png */,
+				18D451931519CF6D0020FF29 /* pasterTemplateImageView12.png */,
+				18D451941519CF6D0020FF29 /* pasterTemplateImageView2.png */,
+				18D451951519CF6D0020FF29 /* pasterTemplateImageView3.png */,
+				18D451961519CF6D0020FF29 /* pasterTemplateImageView4.png */,
+				18D451971519CF6D0020FF29 /* pasterTemplateImageView5.png */,
+				18D451981519CF6D0020FF29 /* pasterTemplateImageView6.png */,
+				18D451991519CF6D0020FF29 /* pasterTemplateImageView7.png */,
+				18D4519A1519CF6D0020FF29 /* pasterTemplateImageView8.png */,
+				18D4519B1519CF6D0020FF29 /* pasterTemplateImageView9.png */,
+			);
+			path = pasterTemplateImageView;
+			sourceTree = "<group>";
+		};
+		18D4519C1519CF6D0020FF29 /* uncreateGeometryPasterButton */ = {
+			isa = PBXGroup;
+			children = (
+				18D4519D1519CF6D0020FF29 /* uncreateCirclePasterButton.png */,
+				18D4519E1519CF6D0020FF29 /* uncreateEllipsePasterButton.png */,
+				18D4519F1519CF6D0020FF29 /* uncreateGeometryPasterButton.psd */,
+				18D451A01519CF6D0020FF29 /* uncreatePentaclePasterButton.png */,
+				18D451A11519CF6D0020FF29 /* uncreateRectanglePasterButton.png */,
+				18D451A21519CF6D0020FF29 /* uncreateSquarePasterButton.png */,
+				18D451A31519CF6D0020FF29 /* uncreateTrapeziumPasterButton.png */,
+				18D451A41519CF6D0020FF29 /* uncreateTrianglePasterButton.png */,
+			);
+			path = uncreateGeometryPasterButton;
+			sourceTree = "<group>";
+		};
+		18E6923E15172CB40076E1EB /* SWNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				18E6923F15172CF30076E1EB /* backgroundImageViewNV.png */,
+				18E6924015172CF30076E1EB /* drawAlbumButton.png */,
+				18E6924115172CF30076E1EB /* drawViewButton.png */,
+				18E6924215172CF30076E1EB /* pasterWonderLandButton.png */,
+				18E6924315172CF30076E1EB /* sketchWonderlandImageView.png */,
+			);
+			name = SWNavigationView;
+			sourceTree = "<group>";
+		};
+		18EB663A15187E6B00F8CAA1 /* SWPasterWonderlandViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18C141CF1519DB5300632778 /* pasterTemplateButton */,
+				18EB663B15187E6B00F8CAA1 /* backgroundImageView.png */,
+				18EB664315187E6B00F8CAA1 /* pasterWorkButton */,
+				18EB664415187E6B00F8CAA1 /* returnButton.png */,
+			);
+			path = SWPasterWonderlandViewController;
+			sourceTree = "<group>";
+		};
+		18EB664315187E6B00F8CAA1 /* pasterWorkButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pasterWorkButton;
+			sourceTree = "<group>";
+		};
+		18EB665D1518930E00F8CAA1 /* SWDrawViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18EB665E1518930E00F8CAA1 /* colorButton */,
+				18EB66711518930E00F8CAA1 /* DVCbackgroundImageView.png */,
+				18EB66721518930E00F8CAA1 /* enterAlbumButton */,
+				18EB66731518930E00F8CAA1 /* grayMaskImageView.png */,
+				18EB66741518930E00F8CAA1 /* redoButton.png */,
+				18EB66751518930E00F8CAA1 /* removeGeometryPasterButton.png */,
+				18EB66761518930E00F8CAA1 /* returnButton.png */,
+				18EB66771518930E00F8CAA1 /* saveButton.png */,
+				18EB66781518930E00F8CAA1 /* undoButton.png */,
+				18EB66791518930E00F8CAA1 /* 彩笔.psd */,
+			);
+			path = SWDrawViewController;
+			sourceTree = "<group>";
+		};
+		18EB665E1518930E00F8CAA1 /* colorButton */ = {
+			isa = PBXGroup;
+			children = (
+				18EB665F1518930E00F8CAA1 /* colorButton1.png */,
+				18EB66601518930E00F8CAA1 /* colorButton10.png */,
+				18EB66611518930E00F8CAA1 /* colorButton11.png */,
+				18EB66621518930E00F8CAA1 /* colorButton12.png */,
+				18EB66631518930E00F8CAA1 /* colorButton13.png */,
+				18EB66641518930E00F8CAA1 /* colorButton14.png */,
+				18EB66651518930E00F8CAA1 /* colorButton15.png */,
+				18EB66661518930E00F8CAA1 /* colorButton16.png */,
+				18EB66671518930E00F8CAA1 /* colorButton17.png */,
+				18EB66681518930E00F8CAA1 /* colorButton18.png */,
+				18EB66691518930E00F8CAA1 /* colorButton2.png */,
+				18EB666A1518930E00F8CAA1 /* colorButton3.png */,
+				18EB666B1518930E00F8CAA1 /* colorButton4.png */,
+				18EB666C1518930E00F8CAA1 /* colorButton5.png */,
+				18EB666D1518930E00F8CAA1 /* colorButton6.png */,
+				18EB666E1518930E00F8CAA1 /* colorButton7.png */,
+				18EB666F1518930E00F8CAA1 /* colorButton8.png */,
+				18EB66701518930E00F8CAA1 /* colorButton9.png */,
+			);
+			path = colorButton;
+			sourceTree = "<group>";
+		};
+		18EB66721518930E00F8CAA1 /* enterAlbumButton */ = {
+			isa = PBXGroup;
+			children = (
+				180C51CB151B4ADE00792551 /* enterAlumButton.png */,
+			);
+			path = enterAlbumButton;
+			sourceTree = "<group>";
+		};
+		A3643B4E14BC23E7004EECBC /* PictureResources */ = {
+			isa = PBXGroup;
+			children = (
+				18D4518B1519CF6D0020FF29 /* SWEditPasterTemplateViewController */,
+				18EB665D1518930E00F8CAA1 /* SWDrawViewController */,
+				18EB663A15187E6B00F8CAA1 /* SWPasterWonderlandViewController */,
+				18E6923E15172CB40076E1EB /* SWNavigationView */,
+				18C88F6814DA431B00038D1C /* SWSelectDrawCanvasView */,
+				18BADDB114C2A1000042A8FF /* SWDrawAlbumView */,
+				A3C8DAEA14BC2DB20093CCB5 /* SWDialogView */,
+				A3643C1614BC2532004EECBC /* SWDrawView */,
+			);
+			name = PictureResources;
+			sourceTree = "<group>";
+		};
+		A3643C1614BC2532004EECBC /* SWDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8DAC914BC27B90093CCB5 /* ColorResources */,
+				A3643C1714BC2558004EECBC /* DVCclearCanvasButton.png */,
+				A3643C1814BC2558004EECBC /* DVCclearCanvasOnButton.png */,
+				A3643C2814BC2558004EECBC /* DVCdrawCanvas1.png */,
+				A3643C2914BC2558004EECBC /* DVCdrawCanvas2.png */,
+				A3643C2A14BC2558004EECBC /* DVCdrawCanvas3.png */,
+				A3643C2B14BC2558004EECBC /* DVCearaserButton.png */,
+				A3643C2C14BC2558004EECBC /* DVCearaserOnButton.png */,
+				A3643C2D14BC2558004EECBC /* DVCeditToolKitButton.png */,
+				A3643C2E14BC2558004EECBC /* DVCeditToolKitOnButton.png */,
+				A3643C2F14BC2558004EECBC /* DVCenterAlbumButton.png */,
+				A3643C3014BC2558004EECBC /* DVCenterAlbumOnButton.png */,
+				A3643C3114BC2558004EECBC /* DVClargePenSizeButton.png */,
+				A3643C3214BC2558004EECBC /* DVClargePenSizeOnButton.png */,
+				A3643C3314BC2558004EECBC /* DVClittlePenSizeButton.png */,
+				A3643C3414BC2558004EECBC /* DVClittlePenSizeOnButton.png */,
+				A3643C3514BC2558004EECBC /* DVCmiddlePenSizeButton.png */,
+				A3643C3614BC2558004EECBC /* DVCmiddlePenSizeOnButton.png */,
+				A3643C3714BC2558004EECBC /* DVCredoButton.png */,
+				A3643C3814BC2558004EECBC /* DVCredoOnButton.png */,
+				A3643C3914BC2558004EECBC /* DVCreturnButton.png */,
+				A3643C3A14BC2558004EECBC /* DVCreturnOnButton.png */,
+				A3643C3B14BC2558004EECBC /* DVCsaveButton.png */,
+				A3643C3C14BC2558004EECBC /* DVCsaveOnButton.png */,
+				A3643C3D14BC2558004EECBC /* DVCundoButton.png */,
+				A3643C3E14BC2558004EECBC /* DVCundoOnButton.png */,
+			);
+			name = SWDrawView;
+			sourceTree = "<group>";
+		};
+		A3B5BD4514BC200500CA3006 = {
+			isa = PBXGroup;
+			children = (
+				18C88F5814DA41EC00038D1C /* QuartzCore.framework */,
+				18C88F5514DA41DB00038D1C /* CFNetwork.framework */,
+				A3B5BD5A14BC200500CA3006 /* SketchWonderLand */,
+				A3B5BD5314BC200500CA3006 /* Frameworks */,
+				A3B5BD5114BC200500CA3006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B5BD5114BC200500CA3006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5BD5014BC200500CA3006 /* SketchWonderLand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B5BD5314BC200500CA3006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5BD5414BC200500CA3006 /* UIKit.framework */,
+				A3B5BD5614BC200500CA3006 /* Foundation.framework */,
+				A3B5BD5814BC200500CA3006 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B5BD5A14BC200500CA3006 /* SketchWonderLand */ = {
+			isa = PBXGroup;
+			children = (
+				18C88F5D14DA42C000038D1C /* OpenFlow */,
+				A3643B4E14BC23E7004EECBC /* PictureResources */,
+				A3B5BD6314BC200500CA3006 /* SketchWonderLandAppDelegate.h */,
+				A3B5BD6414BC200500CA3006 /* SketchWonderLandAppDelegate.m */,
+				A3B5BD6614BC200500CA3006 /* MainWindow.xib */,
+				18E6923815172C400076E1EB /* SWNavigationViewController.h */,
+				18E6923915172C400076E1EB /* SWNavigationViewController.m */,
+				18E6923A15172C400076E1EB /* SWNavigationViewController.xib */,
+				18EB665315187F2200F8CAA1 /* SWPasterWonderlandViewController.h */,
+				18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */,
+				18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */,
+				18EB6658151892D400F8CAA1 /* SWDrawViewController.h */,
+				18EB6659151892D400F8CAA1 /* SWDrawViewController.m */,
+				18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */,
+				A3B5BD6914BC200500CA3006 /* SketchWonderLandViewController.h */,
+				A3B5BD6A14BC200500CA3006 /* SketchWonderLandViewController.m */,
+				A3B5BD6C14BC200500CA3006 /* SketchWonderLandViewController.xib */,
+				18B33AF114F5049B00718228 /* SWSelectDrawCanvasViewController.h */,
+				18B33AF214F5049B00718228 /* SWSelectDrawCanvasViewController.m */,
+				18B33AF314F5049B00718228 /* SWSelectDrawCanvasViewController.xib */,
+				18BADDAB14C2A0B90042A8FF /* SWDrawAlbumViewController.h */,
+				18BADDAC14C2A0B90042A8FF /* SWDrawAlbumViewController.m */,
+				18BADDAD14C2A0B90042A8FF /* SWDrawAlbumViewController.xib */,
+				A307124614BC38BA00CB00E4 /* SWPromptDialogViewController.h */,
+				A307124714BC38BA00CB00E4 /* SWPromptDialogViewController.m */,
+				A307124814BC38BA00CB00E4 /* SWPromptDialogViewController.xib */,
+				A3B5BD5B14BC200500CA3006 /* Supporting Files */,
+			);
+			path = SketchWonderLand;
+			sourceTree = "<group>";
+		};
+		A3B5BD5B14BC200500CA3006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5BD5C14BC200500CA3006 /* SketchWonderLand-Info.plist */,
+				A3B5BD5D14BC200500CA3006 /* InfoPlist.strings */,
+				A3B5BD6014BC200500CA3006 /* main.m */,
+				A3B5BD6214BC200500CA3006 /* SketchWonderLand-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3C8DAC914BC27B90093CCB5 /* ColorResources */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8DAE814BC2B850093CCB5 /* DVCblackButton.png */,
+				A3C8DACA14BC27D00093CCB5 /* DVCblueButton .png */,
+				A3C8DACB14BC27D00093CCB5 /* DVCdarkBlueButton.png */,
+				A3C8DACC14BC27D00093CCB5 /* DVCdarkGreenButton.png */,
+				A3C8DACD14BC27D00093CCB5 /* DVCdarkPurpleButton.png */,
+				A3C8DACE14BC27D00093CCB5 /* DVCdarkRedButton.png */,
+				A3C8DACF14BC27D00093CCB5 /* DVCdarkYellowButton.png */,
+				A3C8DAD014BC27D00093CCB5 /* DVCgreenButton.png */,
+				A3C8DAD114BC27D00093CCB5 /* DVClightBlueButton .png */,
+				A3C8DAD214BC27D00093CCB5 /* DVClightGreenutton.png */,
+				A3C8DAD314BC27D00093CCB5 /* DVClightPurpleButton.png */,
+				A3C8DAD414BC27D00093CCB5 /* DVClightRedButton.png */,
+				A3C8DAD514BC27D00093CCB5 /* DVClightYellowButton.png */,
+				A3C8DAD614BC27D00093CCB5 /* DVCPurpleButton.png */,
+				A3C8DAD714BC27D00093CCB5 /* DVCredButton.png */,
+				A3C8DAD814BC27D00093CCB5 /* DVCyellowButton .png */,
+			);
+			name = ColorResources;
+			sourceTree = "<group>";
+		};
+		A3C8DAEA14BC2DB20093CCB5 /* SWDialogView */ = {
+			isa = PBXGroup;
+			children = (
+				A3C8DAEB14BC2DC80093CCB5 /* PDbackground.png */,
+				A3C8DAEC14BC2DC80093CCB5 /* PDcancleButton.png */,
+				A3C8DAED14BC2DC80093CCB5 /* PDyesButton.png */,
+			);
+			name = SWDialogView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B5BD4F14BC200500CA3006 /* SketchWonderLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B5BD7114BC200500CA3006 /* Build configuration list for PBXNativeTarget "SketchWonderLand" */;
+			buildPhases = (
+				A3B5BD4C14BC200500CA3006 /* Sources */,
+				A3B5BD4D14BC200500CA3006 /* Frameworks */,
+				A3B5BD4E14BC200500CA3006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchWonderLand;
+			productName = SketchWonderLand;
+			productReference = A3B5BD5014BC200500CA3006 /* SketchWonderLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B5BD4714BC200500CA3006 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A3B5BD4A14BC200500CA3006 /* Build configuration list for PBXProject "SketchWonderLand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3B5BD4514BC200500CA3006;
+			productRefGroup = A3B5BD5114BC200500CA3006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B5BD4F14BC200500CA3006 /* SketchWonderLand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B5BD4E14BC200500CA3006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B5BD5F14BC200500CA3006 /* InfoPlist.strings in Resources */,
+				A3B5BD6814BC200500CA3006 /* MainWindow.xib in Resources */,
+				A3B5BD6E14BC200500CA3006 /* SketchWonderLandViewController.xib in Resources */,
+				A3643C3F14BC2558004EECBC /* DVCclearCanvasButton.png in Resources */,
+				A3643C4014BC2558004EECBC /* DVCclearCanvasOnButton.png in Resources */,
+				A3643C5014BC2558004EECBC /* DVCdrawCanvas1.png in Resources */,
+				A3643C5114BC2558004EECBC /* DVCdrawCanvas2.png in Resources */,
+				A3643C5214BC2558004EECBC /* DVCdrawCanvas3.png in Resources */,
+				A3643C5314BC2558004EECBC /* DVCearaserButton.png in Resources */,
+				A3643C5414BC2558004EECBC /* DVCearaserOnButton.png in Resources */,
+				A3643C5514BC2558004EECBC /* DVCeditToolKitButton.png in Resources */,
+				A3643C5614BC2558004EECBC /* DVCeditToolKitOnButton.png in Resources */,
+				A3643C5714BC2558004EECBC /* DVCenterAlbumButton.png in Resources */,
+				A3643C5814BC2558004EECBC /* DVCenterAlbumOnButton.png in Resources */,
+				A3643C5914BC2558004EECBC /* DVClargePenSizeButton.png in Resources */,
+				A3643C5A14BC2558004EECBC /* DVClargePenSizeOnButton.png in Resources */,
+				A3643C5B14BC2558004EECBC /* DVClittlePenSizeButton.png in Resources */,
+				A3643C5C14BC2558004EECBC /* DVClittlePenSizeOnButton.png in Resources */,
+				A3643C5D14BC2558004EECBC /* DVCmiddlePenSizeButton.png in Resources */,
+				A3643C5E14BC2558004EECBC /* DVCmiddlePenSizeOnButton.png in Resources */,
+				A3643C5F14BC2558004EECBC /* DVCredoButton.png in Resources */,
+				A3643C6014BC2558004EECBC /* DVCredoOnButton.png in Resources */,
+				A3643C6114BC2558004EECBC /* DVCreturnButton.png in Resources */,
+				A3643C6214BC2558004EECBC /* DVCreturnOnButton.png in Resources */,
+				A3643C6314BC2558004EECBC /* DVCsaveButton.png in Resources */,
+				A3643C6414BC2558004EECBC /* DVCsaveOnButton.png in Resources */,
+				A3643C6514BC2558004EECBC /* DVCundoButton.png in Resources */,
+				A3643C6614BC2558004EECBC /* DVCundoOnButton.png in Resources */,
+				A3643C6814BC259A004EECBC /* SWbackground.png in Resources */,
+				A3C8DAD914BC27D00093CCB5 /* DVCblueButton .png in Resources */,
+				A3C8DADA14BC27D00093CCB5 /* DVCdarkBlueButton.png in Resources */,
+				A3C8DADB14BC27D00093CCB5 /* DVCdarkGreenButton.png in Resources */,
+				A3C8DADC14BC27D00093CCB5 /* DVCdarkPurpleButton.png in Resources */,
+				A3C8DADD14BC27D00093CCB5 /* DVCdarkRedButton.png in Resources */,
+				A3C8DADE14BC27D00093CCB5 /* DVCdarkYellowButton.png in Resources */,
+				A3C8DADF14BC27D00093CCB5 /* DVCgreenButton.png in Resources */,
+				A3C8DAE014BC27D00093CCB5 /* DVClightBlueButton .png in Resources */,
+				A3C8DAE114BC27D00093CCB5 /* DVClightGreenutton.png in Resources */,
+				A3C8DAE214BC27D00093CCB5 /* DVClightPurpleButton.png in Resources */,
+				A3C8DAE314BC27D00093CCB5 /* DVClightRedButton.png in Resources */,
+				A3C8DAE414BC27D00093CCB5 /* DVClightYellowButton.png in Resources */,
+				A3C8DAE514BC27D00093CCB5 /* DVCPurpleButton.png in Resources */,
+				A3C8DAE614BC27D00093CCB5 /* DVCredButton.png in Resources */,
+				A3C8DAE714BC27D00093CCB5 /* DVCyellowButton .png in Resources */,
+				A3C8DAE914BC2B850093CCB5 /* DVCblackButton.png in Resources */,
+				A3C8DAEE14BC2DC80093CCB5 /* PDbackground.png in Resources */,
+				A3C8DAEF14BC2DC80093CCB5 /* PDcancleButton.png in Resources */,
+				A3C8DAF014BC2DC80093CCB5 /* PDyesButton.png in Resources */,
+				A307124A14BC38BA00CB00E4 /* SWPromptDialogViewController.xib in Resources */,
+				18BADDAF14C2A0B90042A8FF /* SWDrawAlbumViewController.xib in Resources */,
+				18BADDB414C2A1540042A8FF /* butterfly1.png in Resources */,
+				18BADDB614C2A15C0042A8FF /* butterfly2.png in Resources */,
+				18BADDB814C2A1620042A8FF /* DAVCalbum.png in Resources */,
+				18BADDC114C2A1720042A8FF /* SWgrayMask.png in Resources */,
+				18BADDC214C2A1720042A8FF /* DAVCdeleteButton.png in Resources */,
+				18BADDC314C2A1720042A8FF /* DAVCdeleteOnButton.png in Resources */,
+				18BADDC414C2A1720042A8FF /* DAVCdrawWork1.png in Resources */,
+				18BADDC514C2A1720042A8FF /* DAVCreturnOnButton.png in Resources */,
+				18BADDC614C2A1720042A8FF /* DAVCeditButton.png in Resources */,
+				18BADDC714C2A1720042A8FF /* DAVCeditOnButton.png in Resources */,
+				18BADDC814C2A1720042A8FF /* DAVCreturnButton.png in Resources */,
+				18C88F7014DA439300038D1C /* DrawCanvas1.png in Resources */,
+				18C88F7114DA439300038D1C /* DrawCanvas2.png in Resources */,
+				18C88F7214DA439300038D1C /* DrawCanvas3.png in Resources */,
+				18C88F7314DA439300038D1C /* DrawCanvas4.png in Resources */,
+				18C88F7414DA439300038D1C /* DrawCanvas5.png in Resources */,
+				18C88F7514DA439300038D1C /* DrawCanvas6.png in Resources */,
+				18C88F7614DA439300038D1C /* Background.png in Resources */,
+				18B33AF514F5049B00718228 /* SWSelectDrawCanvasViewController.xib in Resources */,
+				18E6923C15172C400076E1EB /* SWNavigationViewController.xib in Resources */,
+				18E6924415172CF30076E1EB /* backgroundImageViewNV.png in Resources */,
+				18E6924515172CF30076E1EB /* drawAlbumButton.png in Resources */,
+				18E6924615172CF30076E1EB /* drawViewButton.png in Resources */,
+				18E6924715172CF30076E1EB /* pasterWonderLandButton.png in Resources */,
+				18E6924815172CF30076E1EB /* sketchWonderlandImageView.png in Resources */,
+				18EB664515187E6B00F8CAA1 /* backgroundImageView.png in Resources */,
+				18EB664C15187E6B00F8CAA1 /* returnButton.png in Resources */,
+				18EB665715187F2200F8CAA1 /* SWPasterWonderlandViewController.xib in Resources */,
+				18EB665C151892D400F8CAA1 /* SWDrawViewController.xib in Resources */,
+				18EB667A1518930E00F8CAA1 /* colorButton1.png in Resources */,
+				18EB667B1518930E00F8CAA1 /* colorButton10.png in Resources */,
+				18EB667C1518930E00F8CAA1 /* colorButton11.png in Resources */,
+				18EB667D1518930E00F8CAA1 /* colorButton12.png in Resources */,
+				18EB667E1518930E00F8CAA1 /* colorButton13.png in Resources */,
+				18EB667F1518930E00F8CAA1 /* colorButton14.png in Resources */,
+				18EB66801518930E00F8CAA1 /* colorButton15.png in Resources */,
+				18EB66811518930E00F8CAA1 /* colorButton16.png in Resources */,
+				18EB66821518930E00F8CAA1 /* colorButton17.png in Resources */,
+				18EB66831518930E00F8CAA1 /* colorButton18.png in Resources */,
+				18EB66841518930E00F8CAA1 /* colorButton2.png in Resources */,
+				18EB66851518930E00F8CAA1 /* colorButton3.png in Resources */,
+				18EB66861518930E00F8CAA1 /* colorButton4.png in Resources */,
+				18EB66871518930E00F8CAA1 /* colorButton5.png in Resources */,
+				18EB66881518930E00F8CAA1 /* colorButton6.png in Resources */,
+				18EB66891518930E00F8CAA1 /* colorButton7.png in Resources */,
+				18EB668A1518930E00F8CAA1 /* colorButton8.png in Resources */,
+				18EB668B1518930E00F8CAA1 /* colorButton9.png in Resources */,
+				18EB668C1518930E00F8CAA1 /* DVCbackgroundImageView.png in Resources */,
+				18EB668D1518930E00F8CAA1 /* grayMaskImageView.png in Resources */,
+				18EB668E1518930E00F8CAA1 /* redoButton.png in Resources */,
+				18EB668F1518930E00F8CAA1 /* removeGeometryPasterButton.png in Resources */,
+				18EB66901518930E00F8CAA1 /* returnButton.png in Resources */,
+				18EB66911518930E00F8CAA1 /* saveButton.png in Resources */,
+				18EB66921518930E00F8CAA1 /* undoButton.png in Resources */,
+				18EB66931518930E00F8CAA1 /* 彩笔.psd in Resources */,
+				18D451A51519CF6D0020FF29 /* geometryPasterLibraryImageView.png in Resources */,
+				18D451A61519CF6D0020FF29 /* pasterTemplateImageView.psd in Resources */,
+				18D451A71519CF6D0020FF29 /* pasterTemplateImageView1.png in Resources */,
+				18D451A81519CF6D0020FF29 /* pasterTemplateImageView10.png in Resources */,
+				18D451A91519CF6D0020FF29 /* pasterTemplateImageView11.png in Resources */,
+				18D451AA1519CF6D0020FF29 /* pasterTemplateImageView12.png in Resources */,
+				18D451AB1519CF6D0020FF29 /* pasterTemplateImageView2.png in Resources */,
+				18D451AC1519CF6D0020FF29 /* pasterTemplateImageView3.png in Resources */,
+				18D451AD1519CF6D0020FF29 /* pasterTemplateImageView4.png in Resources */,
+				18D451AE1519CF6D0020FF29 /* pasterTemplateImageView5.png in Resources */,
+				18D451AF1519CF6D0020FF29 /* pasterTemplateImageView6.png in Resources */,
+				18D451B01519CF6D0020FF29 /* pasterTemplateImageView7.png in Resources */,
+				18D451B11519CF6D0020FF29 /* pasterTemplateImageView8.png in Resources */,
+				18D451B21519CF6D0020FF29 /* pasterTemplateImageView9.png in Resources */,
+				18D451B31519CF6D0020FF29 /* uncreateCirclePasterButton.png in Resources */,
+				18D451B41519CF6D0020FF29 /* uncreateEllipsePasterButton.png in Resources */,
+				18D451B51519CF6D0020FF29 /* uncreateGeometryPasterButton.psd in Resources */,
+				18D451B61519CF6D0020FF29 /* uncreatePentaclePasterButton.png in Resources */,
+				18D451B71519CF6D0020FF29 /* uncreateRectanglePasterButton.png in Resources */,
+				18D451B81519CF6D0020FF29 /* uncreateSquarePasterButton.png in Resources */,
+				18D451B91519CF6D0020FF29 /* uncreateTrapeziumPasterButton.png in Resources */,
+				18D451BA1519CF6D0020FF29 /* uncreateTrianglePasterButton.png in Resources */,
+				18C141DC1519DB5300632778 /* pasterTemplateButton1.png in Resources */,
+				18C141DD1519DB5300632778 /* pasterTemplateButton10.png in Resources */,
+				18C141DE1519DB5300632778 /* pasterTemplateButton11.png in Resources */,
+				18C141DF1519DB5300632778 /* pasterTemplateButton12.png in Resources */,
+				18C141E01519DB5300632778 /* pasterTemplateButton2.png in Resources */,
+				18C141E11519DB5300632778 /* pasterTemplateButton3.png in Resources */,
+				18C141E21519DB5300632778 /* pasterTemplateButton4.png in Resources */,
+				18C141E31519DB5300632778 /* pasterTemplateButton5.png in Resources */,
+				18C141E41519DB5300632778 /* pasterTemplateButton6.png in Resources */,
+				18C141E51519DB5300632778 /* pasterTemplateButton7.png in Resources */,
+				18C141E61519DB5300632778 /* pasterTemplateButton8.png in Resources */,
+				18C141E71519DB5300632778 /* pasterTemplateButton9.png in Resources */,
+				180C51CC151B4ADE00792551 /* enterAlumButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B5BD4C14BC200500CA3006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B5BD6114BC200500CA3006 /* main.m in Sources */,
+				A3B5BD6514BC200500CA3006 /* SketchWonderLandAppDelegate.m in Sources */,
+				A3B5BD6B14BC200500CA3006 /* SketchWonderLandViewController.m in Sources */,
+				A307124914BC38BA00CB00E4 /* SWPromptDialogViewController.m in Sources */,
+				18BADDAE14C2A0B90042A8FF /* SWDrawAlbumViewController.m in Sources */,
+				18C88F6514DA42FB00038D1C /* AFItemView.m in Sources */,
+				18C88F6614DA42FB00038D1C /* AFOpenFlowView.m in Sources */,
+				18C88F6714DA42FB00038D1C /* AFUIImageReflection.m in Sources */,
+				18B33AF414F5049B00718228 /* SWSelectDrawCanvasViewController.m in Sources */,
+				18E6923B15172C400076E1EB /* SWNavigationViewController.m in Sources */,
+				18EB665615187F2200F8CAA1 /* SWPasterWonderlandViewController.m in Sources */,
+				18EB665B151892D400F8CAA1 /* SWDrawViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3B5BD5D14BC200500CA3006 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B5BD5E14BC200500CA3006 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3B5BD6614BC200500CA3006 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B5BD6714BC200500CA3006 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A3B5BD6C14BC200500CA3006 /* SketchWonderLandViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B5BD6D14BC200500CA3006 /* en */,
+			);
+			name = SketchWonderLandViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B5BD6F14BC200500CA3006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A3B5BD7014BC200500CA3006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B5BD7214BC200500CA3006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchWonderLand/SketchWonderLand-Prefix.pch";
+				INFOPLIST_FILE = "SketchWonderLand/SketchWonderLand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3B5BD7314BC200500CA3006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchWonderLand/SketchWonderLand-Prefix.pch";
+				INFOPLIST_FILE = "SketchWonderLand/SketchWonderLand-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B5BD4A14BC200500CA3006 /* Build configuration list for PBXProject "SketchWonderLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B5BD6F14BC200500CA3006 /* Debug */,
+				A3B5BD7014BC200500CA3006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B5BD7114BC200500CA3006 /* Build configuration list for PBXNativeTarget "SketchWonderLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B5BD7214BC200500CA3006 /* Debug */,
+				A3B5BD7314BC200500CA3006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B5BD4714BC200500CA3006 /* Project object */;
+}
