@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "SWNavigationViewController.h"
+#import "SWDrawViewController.h"
+#import "SWDrawAlbumViewController.h"
 
 @interface SketchWonderLandViewController : UIViewController
 {
     SWNavigationViewController *swNavigationViewController;
+    SWDrawViewController *swDrawViewController;
+    SWDrawAlbumViewController *swDrawAlbumViewController;
 }
 
 @property (retain, nonatomic) SWNavigationViewController *swNavigationController;
+@property (retain, nonatomic) SWDrawViewController *swDrawViewController;
+@property (retain, nonatomic) SWDrawAlbumViewController *swDrawAlbumViewController;
 
 //-(IBAction)switchViews:(id)sender;
 

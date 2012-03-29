@@ -10,6 +10,8 @@
 
 @implementation SketchWonderLandViewController
 @synthesize swNavigationController;
+@synthesize swDrawViewController;
+@synthesize swDrawAlbumViewController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -25,7 +27,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-//    [super viewDidLoad];
+    [super viewDidLoad];
     
 //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
 //    [self presentModalViewController:selectDrawCanvasViewController animated:NO];
@@ -49,11 +51,20 @@
     [self presentModalViewController:drawViewController animated:NO];
     [drawViewController release];*/
     
-    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
-    [self presentModalViewController:swNavigationView animated:NO];
-    [swNavigationView release];
+//    SWDrawViewController* swDrawView = [[SWDrawViewController alloc]init];
+//    [self presentModalViewController:swDrawView animated:NO];
+//    [swDrawView release];
     
-    [super viewDidLoad];
+    SWDrawAlbumViewController* swDrawAlbumView = [[SWDrawAlbumViewController alloc]init];
+    [self presentModalViewController:swDrawAlbumView animated:NO];
+    [swDrawAlbumView release];
+
+    
+//    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
+//    [self presentModalViewController:swNavigationView animated:NO];
+//    [swNavigationView release];
+    
+//    [super viewDidLoad];
 }
 
 
@@ -94,6 +105,8 @@
 -(void)dealloc
 {
     [swNavigationController release];
+    [swDrawViewController release];
+    [swDrawAlbumViewController release];
     
     [super dealloc];
 }

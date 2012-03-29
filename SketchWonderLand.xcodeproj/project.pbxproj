@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		180C51CC151B4ADE00792551 /* enterAlumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 180C51CB151B4ADE00792551 /* enterAlumButton.png */; };
+		18A68C4F1522BF17006A594F /* SWDrawAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */; };
+		18A68C501522BF17006A594F /* SWDrawAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A68C4E1522BF17006A594F /* SWDrawAlbumViewController.xib */; };
+		18A68C561522BF68006A594F /* backgroundImageViewDAV.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A68C531522BF68006A594F /* backgroundImageViewDAV.png */; };
+		18A68C571522BF68006A594F /* returnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A68C551522BF68006A594F /* returnButton.png */; };
 		18C141DC1519DB5300632778 /* pasterTemplateButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D01519DB5300632778 /* pasterTemplateButton1.png */; };
 		18C141DD1519DB5300632778 /* pasterTemplateButton10.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D11519DB5300632778 /* pasterTemplateButton10.png */; };
 		18C141DE1519DB5300632778 /* pasterTemplateButton11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C141D21519DB5300632778 /* pasterTemplateButton11.png */; };
@@ -28,7 +32,6 @@
 		18D3C86C1521BE1C00E2C732 /* createCirclePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8631521BE1C00E2C732 /* createCirclePasterButton.png */; };
 		18D3C86D1521BE1C00E2C732 /* createEllipsePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8641521BE1C00E2C732 /* createEllipsePasterButton.png */; };
 		18D3C86E1521BE1C00E2C732 /* createGeometryPasterImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8651521BE1C00E2C732 /* createGeometryPasterImageView.png */; };
-		18D3C86F1521BE1C00E2C732 /* createGeometryPasterImageView.psd in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8661521BE1C00E2C732 /* createGeometryPasterImageView.psd */; };
 		18D3C8701521BE1C00E2C732 /* createPentaclePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8671521BE1C00E2C732 /* createPentaclePasterButton.png */; };
 		18D3C8711521BE1C00E2C732 /* createRectanglePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8681521BE1C00E2C732 /* createRectanglePasterButton.png */; };
 		18D3C8721521BE1C00E2C732 /* createSquarePasterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3C8691521BE1C00E2C732 /* createSquarePasterButton.png */; };
@@ -57,6 +60,12 @@
 		18D820FD15219B4100A720D7 /* clearButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D820FC15219B4100A720D7 /* clearButton.png */; };
 		18D821001521B5E100A720D7 /* pasterTemplateButton4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D820FF1521B5E100A720D7 /* pasterTemplateButton4.png */; };
 		18D821021521B67800A720D7 /* pasterTemplateButton6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D821011521B67800A720D7 /* pasterTemplateButton6.png */; };
+		18E1AD3E1522F0E100DAFE4D /* drawWorkBackgroundImageView1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD3A1522F0E100DAFE4D /* drawWorkBackgroundImageView1.png */; };
+		18E1AD3F1522F0E100DAFE4D /* drawWorkBackgroundImageView2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD3B1522F0E100DAFE4D /* drawWorkBackgroundImageView2.png */; };
+		18E1AD401522F0E100DAFE4D /* drawWorkBackgroundImageView3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD3C1522F0E100DAFE4D /* drawWorkBackgroundImageView3.png */; };
+		18E1AD411522F0E100DAFE4D /* drawWorkBackgroundImageView4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD3D1522F0E100DAFE4D /* drawWorkBackgroundImageView4.png */; };
+		18E1AD431522F0E800DAFE4D /* drawWorkBackgroundImageView5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD421522F0E800DAFE4D /* drawWorkBackgroundImageView5.png */; };
+		18E1AD451522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E1AD441522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png */; };
 		18E6923B15172C400076E1EB /* SWNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6923915172C400076E1EB /* SWNavigationViewController.m */; };
 		18E6923C15172C400076E1EB /* SWNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E6923A15172C400076E1EB /* SWNavigationViewController.xib */; };
 		18E6924415172CF30076E1EB /* backgroundImageViewNV.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E6923F15172CF30076E1EB /* backgroundImageViewNV.png */; };
@@ -108,6 +117,11 @@
 
 /* Begin PBXFileReference section */
 		180C51CB151B4ADE00792551 /* enterAlumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enterAlumButton.png; sourceTree = "<group>"; };
+		18A68C4C1522BF17006A594F /* SWDrawAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDrawAlbumViewController.h; sourceTree = "<group>"; };
+		18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDrawAlbumViewController.m; sourceTree = "<group>"; };
+		18A68C4E1522BF17006A594F /* SWDrawAlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWDrawAlbumViewController.xib; sourceTree = "<group>"; };
+		18A68C531522BF68006A594F /* backgroundImageViewDAV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImageViewDAV.png; sourceTree = "<group>"; };
+		18A68C551522BF68006A594F /* returnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnButton.png; sourceTree = "<group>"; };
 		18C141D01519DB5300632778 /* pasterTemplateButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton1.png; sourceTree = "<group>"; };
 		18C141D11519DB5300632778 /* pasterTemplateButton10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton10.png; sourceTree = "<group>"; };
 		18C141D21519DB5300632778 /* pasterTemplateButton11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton11.png; sourceTree = "<group>"; };
@@ -132,7 +146,6 @@
 		18D3C8631521BE1C00E2C732 /* createCirclePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createCirclePasterButton.png; sourceTree = "<group>"; };
 		18D3C8641521BE1C00E2C732 /* createEllipsePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createEllipsePasterButton.png; sourceTree = "<group>"; };
 		18D3C8651521BE1C00E2C732 /* createGeometryPasterImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createGeometryPasterImageView.png; sourceTree = "<group>"; };
-		18D3C8661521BE1C00E2C732 /* createGeometryPasterImageView.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = createGeometryPasterImageView.psd; sourceTree = "<group>"; };
 		18D3C8671521BE1C00E2C732 /* createPentaclePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createPentaclePasterButton.png; sourceTree = "<group>"; };
 		18D3C8681521BE1C00E2C732 /* createRectanglePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createRectanglePasterButton.png; sourceTree = "<group>"; };
 		18D3C8691521BE1C00E2C732 /* createSquarePasterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createSquarePasterButton.png; sourceTree = "<group>"; };
@@ -161,6 +174,12 @@
 		18D820FC15219B4100A720D7 /* clearButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clearButton.png; path = enterAlbumButton/clearButton.png; sourceTree = "<group>"; };
 		18D820FF1521B5E100A720D7 /* pasterTemplateButton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton4.png; sourceTree = "<group>"; };
 		18D821011521B67800A720D7 /* pasterTemplateButton6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasterTemplateButton6.png; sourceTree = "<group>"; };
+		18E1AD3A1522F0E100DAFE4D /* drawWorkBackgroundImageView1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView1.png; sourceTree = "<group>"; };
+		18E1AD3B1522F0E100DAFE4D /* drawWorkBackgroundImageView2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView2.png; sourceTree = "<group>"; };
+		18E1AD3C1522F0E100DAFE4D /* drawWorkBackgroundImageView3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView3.png; sourceTree = "<group>"; };
+		18E1AD3D1522F0E100DAFE4D /* drawWorkBackgroundImageView4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView4.png; sourceTree = "<group>"; };
+		18E1AD421522F0E800DAFE4D /* drawWorkBackgroundImageView5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView5.png; sourceTree = "<group>"; };
+		18E1AD441522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawWorkBackgroundImageView6.png; sourceTree = "<group>"; };
 		18E6923815172C400076E1EB /* SWNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNavigationViewController.h; sourceTree = "<group>"; };
 		18E6923915172C400076E1EB /* SWNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNavigationViewController.m; sourceTree = "<group>"; };
 		18E6923A15172C400076E1EB /* SWNavigationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWNavigationViewController.xib; sourceTree = "<group>"; };
@@ -234,6 +253,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A68C521522BF68006A594F /* SWDrawAlbumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18A68C531522BF68006A594F /* backgroundImageViewDAV.png */,
+				18A68C541522BF68006A594F /* drawWorkImageView */,
+				18A68C551522BF68006A594F /* returnButton.png */,
+			);
+			path = SWDrawAlbumViewController;
+			sourceTree = "<group>";
+		};
+		18A68C541522BF68006A594F /* drawWorkImageView */ = {
+			isa = PBXGroup;
+			children = (
+				18E1AD3A1522F0E100DAFE4D /* drawWorkBackgroundImageView1.png */,
+				18E1AD3B1522F0E100DAFE4D /* drawWorkBackgroundImageView2.png */,
+				18E1AD3C1522F0E100DAFE4D /* drawWorkBackgroundImageView3.png */,
+				18E1AD3D1522F0E100DAFE4D /* drawWorkBackgroundImageView4.png */,
+				18E1AD421522F0E800DAFE4D /* drawWorkBackgroundImageView5.png */,
+				18E1AD441522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png */,
+			);
+			path = drawWorkImageView;
+			sourceTree = "<group>";
+		};
 		18C141CF1519DB5300632778 /* pasterTemplateButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,7 +315,6 @@
 				18D3C8631521BE1C00E2C732 /* createCirclePasterButton.png */,
 				18D3C8641521BE1C00E2C732 /* createEllipsePasterButton.png */,
 				18D3C8651521BE1C00E2C732 /* createGeometryPasterImageView.png */,
-				18D3C8661521BE1C00E2C732 /* createGeometryPasterImageView.psd */,
 				18D3C8671521BE1C00E2C732 /* createPentaclePasterButton.png */,
 				18D3C8681521BE1C00E2C732 /* createRectanglePasterButton.png */,
 				18D3C8691521BE1C00E2C732 /* createSquarePasterButton.png */,
@@ -420,6 +461,7 @@
 		A3643B4E14BC23E7004EECBC /* PictureResources */ = {
 			isa = PBXGroup;
 			children = (
+				18A68C521522BF68006A594F /* SWDrawAlbumViewController */,
 				18D4518B1519CF6D0020FF29 /* SWEditPasterTemplateViewController */,
 				18EB665D1518930E00F8CAA1 /* SWDrawViewController */,
 				18EB663A15187E6B00F8CAA1 /* SWPasterWonderlandViewController */,
@@ -477,6 +519,9 @@
 				A3B5BD6914BC200500CA3006 /* SketchWonderLandViewController.h */,
 				A3B5BD6A14BC200500CA3006 /* SketchWonderLandViewController.m */,
 				A3B5BD6C14BC200500CA3006 /* SketchWonderLandViewController.xib */,
+				18A68C4C1522BF17006A594F /* SWDrawAlbumViewController.h */,
+				18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */,
+				18A68C4E1522BF17006A594F /* SWDrawAlbumViewController.xib */,
 				A3B5BD5B14BC200500CA3006 /* Supporting Files */,
 			);
 			path = SketchWonderLand;
@@ -617,12 +662,20 @@
 				18D3C86C1521BE1C00E2C732 /* createCirclePasterButton.png in Resources */,
 				18D3C86D1521BE1C00E2C732 /* createEllipsePasterButton.png in Resources */,
 				18D3C86E1521BE1C00E2C732 /* createGeometryPasterImageView.png in Resources */,
-				18D3C86F1521BE1C00E2C732 /* createGeometryPasterImageView.psd in Resources */,
 				18D3C8701521BE1C00E2C732 /* createPentaclePasterButton.png in Resources */,
 				18D3C8711521BE1C00E2C732 /* createRectanglePasterButton.png in Resources */,
 				18D3C8721521BE1C00E2C732 /* createSquarePasterButton.png in Resources */,
 				18D3C8731521BE1C00E2C732 /* createTrapeziumPasterButton.png in Resources */,
 				18D3C8741521BE1C00E2C732 /* createTrianglePasterButton.png in Resources */,
+				18A68C501522BF17006A594F /* SWDrawAlbumViewController.xib in Resources */,
+				18A68C561522BF68006A594F /* backgroundImageViewDAV.png in Resources */,
+				18A68C571522BF68006A594F /* returnButton.png in Resources */,
+				18E1AD3E1522F0E100DAFE4D /* drawWorkBackgroundImageView1.png in Resources */,
+				18E1AD3F1522F0E100DAFE4D /* drawWorkBackgroundImageView2.png in Resources */,
+				18E1AD401522F0E100DAFE4D /* drawWorkBackgroundImageView3.png in Resources */,
+				18E1AD411522F0E100DAFE4D /* drawWorkBackgroundImageView4.png in Resources */,
+				18E1AD431522F0E800DAFE4D /* drawWorkBackgroundImageView5.png in Resources */,
+				18E1AD451522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +695,7 @@
 				18E6923B15172C400076E1EB /* SWNavigationViewController.m in Sources */,
 				18EB665615187F2200F8CAA1 /* SWPasterWonderlandViewController.m in Sources */,
 				18EB665B151892D400F8CAA1 /* SWDrawViewController.m in Sources */,
+				18A68C4F1522BF17006A594F /* SWDrawAlbumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

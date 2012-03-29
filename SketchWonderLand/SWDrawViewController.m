@@ -9,6 +9,33 @@
 #import "SWDrawViewController.h"
 
 @implementation SWDrawViewController
+@synthesize DVCbackgroundImageView;
+@synthesize geometryPasterLibraryImageView;
+@synthesize createGeometryPasterImageView;
+@synthesize tailenderExitedWork;
+@synthesize penultimaExitedWork;
+@synthesize antepenultimaExitedWork;
+@synthesize returnButton;
+@synthesize saveButton;
+@synthesize deleteButton;
+@synthesize enterAlbumButton;
+@synthesize undoButton;
+@synthesize redoButton;
+@synthesize circlePasterButton;
+@synthesize ellipsePasterButton;
+@synthesize pentaclePasterButton;
+@synthesize rectanglePasterButton;
+@synthesize squarePasterButton;
+@synthesize trapeziumPasterButton;
+@synthesize trianglePasterButton;
+@synthesize createGeometryPasterButton;
+@synthesize createCirclePasterButton;
+@synthesize createEllipsePasterButton;
+@synthesize createPentaclePasterButton;
+@synthesize createRectanglePasterButton;
+@synthesize createSquarePasterButton;
+@synthesize createTrapeziumPasterButton;
+@synthesize createTrianglePasterButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

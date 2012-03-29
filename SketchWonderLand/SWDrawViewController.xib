@@ -103,10 +103,10 @@
 							<object class="IBUIButton" id="131802759">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{12, 109}, {85, 70}}</string>
+								<string key="NSFrame">{{9, 159}, {85, 70}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="165560803"/>
+								<reference key="NSNextKeyView" ref="141813896"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -127,10 +127,10 @@
 							<object class="IBUIButton" id="165560803">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{9, 213}, {90, 125}}</string>
+								<string key="NSFrame">{{7, 299}, {90, 125}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="141813896"/>
+								<reference key="NSNextKeyView" ref="424032431"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -381,7 +381,7 @@
 							<object class="IBUIImageView" id="75575233">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{787, 0}, {120, 675}}</string>
+								<string key="NSFrame">{{787, 0}, {120, 645}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
@@ -399,7 +399,7 @@
 								<string key="NSFrame">{{974, 221}, {45, 45}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="424032431"/>
+								<reference key="NSNextKeyView" ref="165560803"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -423,7 +423,7 @@
 								<string key="NSFrame">{{974, 299}, {45, 45}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="980760023"/>
+								<reference key="NSNextKeyView" ref="1055737394"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -483,7 +483,7 @@
 							<object class="IBUIButton" id="22782977">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{4, 504}, {101, 90}}</string>
+								<string key="NSFrame">{{0, 504}, {101, 90}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="36541429"/>
@@ -500,13 +500,12 @@
 								</object>
 								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
 							</object>
-							<object class="IBUIButton" id="980760023">
+							<object class="IBUIButton" id="998602055">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{12, 380}, {80, 80}}</string>
+								<string key="NSFrame">{{805, 48}, {85, 85}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="1055737394"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -521,7 +520,145 @@
 								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
 								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 									<string key="NSClassName">NSImage</string>
-									<string key="NSResourceName">clearButton.png</string>
+									<string key="NSResourceName">createTrianglePasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="61772349">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 116}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createTrapeziumPasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="678395091">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 192}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createEllipsePasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="1037972019">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 285}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createPentaclePasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="145950755">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 378}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createCirclePasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="798109134">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 471}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createSquarePasterButton.png</string>
+								</object>
+							</object>
+							<object class="IBUIButton" id="512093231">
+								<reference key="NSNextResponder" ref="440797145"/>
+								<int key="NSvFlags">292</int>
+								<string key="NSFrame">{{805, 550}, {85, 85}}</string>
+								<reference key="NSSuperview" ref="440797145"/>
+								<reference key="NSWindow"/>
+								<string key="NSReuseIdentifierKey">_NS:237</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+								<int key="IBUIContentHorizontalAlignment">0</int>
+								<int key="IBUIContentVerticalAlignment">0</int>
+								<reference key="IBUIFont" ref="721967775"/>
+								<reference key="IBUIHighlightedTitleColor" ref="508425898"/>
+								<object class="NSColor" key="IBUINormalTitleColor">
+									<int key="NSColorSpace">1</int>
+									<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+								</object>
+								<reference key="IBUINormalTitleShadowColor" ref="624069601"/>
+								<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">createRectanglePasterButton.png</string>
 								</object>
 							</object>
 						</object>
@@ -562,6 +699,206 @@
 					</object>
 					<int key="connectionID">3</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">DVCbackgroundImageView</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="306177448"/>
+					</object>
+					<int key="connectionID">37</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">enterAlbumButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="22782977"/>
+					</object>
+					<int key="connectionID">41</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">deleteButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="165560803"/>
+					</object>
+					<int key="connectionID">42</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">saveButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="131802759"/>
+					</object>
+					<int key="connectionID">43</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">returnButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="757494079"/>
+					</object>
+					<int key="connectionID">44</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">trianglePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="938251500"/>
+					</object>
+					<int key="connectionID">45</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">squarePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="297399017"/>
+					</object>
+					<int key="connectionID">46</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createGeometryPasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="791911722"/>
+					</object>
+					<int key="connectionID">48</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">circlePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="32217162"/>
+					</object>
+					<int key="connectionID">49</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">ellipsePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="799840282"/>
+					</object>
+					<int key="connectionID">50</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">pentaclePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="377910012"/>
+					</object>
+					<int key="connectionID">51</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">trapeziumPasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="102334428"/>
+					</object>
+					<int key="connectionID">52</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">rectanglePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="755470720"/>
+					</object>
+					<int key="connectionID">54</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createRectanglePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="512093231"/>
+					</object>
+					<int key="connectionID">55</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createSquarePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="798109134"/>
+					</object>
+					<int key="connectionID">56</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createCirclePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="145950755"/>
+					</object>
+					<int key="connectionID">57</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createPentaclePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="1037972019"/>
+					</object>
+					<int key="connectionID">58</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createEllipsePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="678395091"/>
+					</object>
+					<int key="connectionID">59</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createTrapeziumPasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="61772349"/>
+					</object>
+					<int key="connectionID">60</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">createTrianglePasterButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="998602055"/>
+					</object>
+					<int key="connectionID">61</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">undoButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="141813896"/>
+					</object>
+					<int key="connectionID">62</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">redoButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="424032431"/>
+					</object>
+					<int key="connectionID">63</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">tailenderExitedWork</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="1055737394"/>
+					</object>
+					<int key="connectionID">64</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">penultimaExitedWork</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="36541429"/>
+					</object>
+					<int key="connectionID">65</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">antepenultimaExitedWork</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="896138592"/>
+					</object>
+					<int key="connectionID">66</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -597,7 +934,6 @@
 						<reference key="object" ref="440797145"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="306177448"/>
 							<reference ref="757494079"/>
 							<reference ref="210683022"/>
 							<reference ref="141813896"/>
@@ -605,19 +941,20 @@
 							<reference ref="1055737394"/>
 							<reference ref="36541429"/>
 							<reference ref="896138592"/>
-							<reference ref="22782977"/>
-							<reference ref="131802759"/>
-							<reference ref="980760023"/>
-							<reference ref="165560803"/>
 							<reference ref="75575233"/>
+							<reference ref="306177448"/>
+							<reference ref="165560803"/>
+							<reference ref="131802759"/>
+							<reference ref="998602055"/>
+							<reference ref="61772349"/>
+							<reference ref="678395091"/>
+							<reference ref="1037972019"/>
+							<reference ref="145950755"/>
+							<reference ref="798109134"/>
+							<reference ref="512093231"/>
+							<reference ref="22782977"/>
 						</object>
 						<reference key="parent" ref="766721923"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">5</int>
-						<reference key="object" ref="306177448"/>
-						<reference key="parent" ref="440797145"/>
-						<string key="objectName">Image View - DVCbackgroundImageView.png</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
@@ -639,7 +976,6 @@
 						<reference key="object" ref="210683022"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="735704586"/>
 							<reference ref="938251500"/>
 							<reference ref="102334428"/>
 							<reference ref="377910012"/>
@@ -648,8 +984,10 @@
 							<reference ref="297399017"/>
 							<reference ref="791911722"/>
 							<reference ref="755470720"/>
+							<reference ref="735704586"/>
 						</object>
 						<reference key="parent" ref="440797145"/>
+						<string key="objectName">View</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">13</int>
@@ -723,18 +1061,54 @@
 						<reference key="parent" ref="440797145"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">26</int>
-						<reference key="object" ref="980760023"/>
-						<reference key="parent" ref="440797145"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">27</int>
 						<reference key="object" ref="791911722"/>
 						<reference key="parent" ref="210683022"/>
 					</object>
 					<object class="IBObjectRecord">
+						<int key="objectID">5</int>
+						<reference key="object" ref="306177448"/>
+						<reference key="parent" ref="440797145"/>
+						<string key="objectName">Image View - DVCbackgroundImageView.png</string>
+					</object>
+					<object class="IBObjectRecord">
 						<int key="objectID">29</int>
 						<reference key="object" ref="75575233"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">30</int>
+						<reference key="object" ref="998602055"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">31</int>
+						<reference key="object" ref="61772349"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">32</int>
+						<reference key="object" ref="678395091"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">33</int>
+						<reference key="object" ref="1037972019"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">34</int>
+						<reference key="object" ref="145950755"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">35</int>
+						<reference key="object" ref="798109134"/>
+						<reference key="parent" ref="440797145"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">36</int>
+						<reference key="object" ref="512093231"/>
 						<reference key="parent" ref="440797145"/>
 					</object>
 				</object>
@@ -762,9 +1136,15 @@
 					<string>22.IBPluginDependency</string>
 					<string>23.IBPluginDependency</string>
 					<string>24.IBPluginDependency</string>
-					<string>26.IBPluginDependency</string>
 					<string>27.IBPluginDependency</string>
 					<string>29.IBPluginDependency</string>
+					<string>30.IBPluginDependency</string>
+					<string>31.IBPluginDependency</string>
+					<string>32.IBPluginDependency</string>
+					<string>33.IBPluginDependency</string>
+					<string>34.IBPluginDependency</string>
+					<string>35.IBPluginDependency</string>
+					<string>36.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
@@ -777,6 +1157,12 @@
 					<string>SWDrawViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>UIResponder</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -816,7 +1202,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">29</int>
+			<int key="maxID">66</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -824,6 +1210,213 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">SWDrawViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>DVCbackgroundImageView</string>
+							<string>antepenultimaExitedWork</string>
+							<string>circlePasterButton</string>
+							<string>createCirclePasterButton</string>
+							<string>createEllipsePasterButton</string>
+							<string>createGeometryPasterButton</string>
+							<string>createGeometryPasterImageView</string>
+							<string>createPentaclePasterButton</string>
+							<string>createRectanglePasterButton</string>
+							<string>createSquarePasterButton</string>
+							<string>createTrapeziumPasterButton</string>
+							<string>createTrianglePasterButton</string>
+							<string>deleteButton</string>
+							<string>ellipsePasterButton</string>
+							<string>enterAlbumButton</string>
+							<string>geometryPasterLibraryImageView</string>
+							<string>pentaclePasterButton</string>
+							<string>penultimaExitedWork</string>
+							<string>rectanglePasterButton</string>
+							<string>redoButton</string>
+							<string>returnButton</string>
+							<string>saveButton</string>
+							<string>squarePasterButton</string>
+							<string>tailenderExitedWork</string>
+							<string>trapeziumPasterButton</string>
+							<string>trianglePasterButton</string>
+							<string>undoButton</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIImageView</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+							<string>UIButton</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>DVCbackgroundImageView</string>
+							<string>antepenultimaExitedWork</string>
+							<string>circlePasterButton</string>
+							<string>createCirclePasterButton</string>
+							<string>createEllipsePasterButton</string>
+							<string>createGeometryPasterButton</string>
+							<string>createGeometryPasterImageView</string>
+							<string>createPentaclePasterButton</string>
+							<string>createRectanglePasterButton</string>
+							<string>createSquarePasterButton</string>
+							<string>createTrapeziumPasterButton</string>
+							<string>createTrianglePasterButton</string>
+							<string>deleteButton</string>
+							<string>ellipsePasterButton</string>
+							<string>enterAlbumButton</string>
+							<string>geometryPasterLibraryImageView</string>
+							<string>pentaclePasterButton</string>
+							<string>penultimaExitedWork</string>
+							<string>rectanglePasterButton</string>
+							<string>redoButton</string>
+							<string>returnButton</string>
+							<string>saveButton</string>
+							<string>squarePasterButton</string>
+							<string>tailenderExitedWork</string>
+							<string>trapeziumPasterButton</string>
+							<string>trianglePasterButton</string>
+							<string>undoButton</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">DVCbackgroundImageView</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">antepenultimaExitedWork</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">circlePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createCirclePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createEllipsePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createGeometryPasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createGeometryPasterImageView</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createPentaclePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createRectanglePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createSquarePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createTrapeziumPasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">createTrianglePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">deleteButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">ellipsePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">enterAlbumButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">geometryPasterLibraryImageView</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">pentaclePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">penultimaExitedWork</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">rectanglePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">redoButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">returnButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">saveButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">squarePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">tailenderExitedWork</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">trapeziumPasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">trianglePasterButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">undoButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/SWDrawViewController.h</string>
@@ -844,9 +1437,15 @@
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>DVCbackgroundImageView.png</string>
-				<string>clearButton.png</string>
+				<string>createCirclePasterButton.png</string>
+				<string>createEllipsePasterButton.png</string>
 				<string>createGeometryPasterButton.png</string>
 				<string>createGeometryPasterImageView.png</string>
+				<string>createPentaclePasterButton.png</string>
+				<string>createRectanglePasterButton.png</string>
+				<string>createSquarePasterButton.png</string>
+				<string>createTrapeziumPasterButton.png</string>
+				<string>createTrianglePasterButton.png</string>
 				<string>enterAlumButton.png</string>
 				<string>geometryPasterLibraryImageView.png</string>
 				<string>redoButton.png</string>
@@ -865,9 +1464,15 @@
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>{1024, 768}</string>
-				<string>{80, 80}</string>
+				<string>{85, 85}</string>
+				<string>{85, 85}</string>
 				<string>{85, 85}</string>
 				<string>{120, 675}</string>
+				<string>{85, 85}</string>
+				<string>{85, 85}</string>
+				<string>{85, 85}</string>
+				<string>{85, 85}</string>
+				<string>{85, 85}</string>
 				<string>{70, 90}</string>
 				<string>{930, 140}</string>
 				<string>{45, 45}</string>

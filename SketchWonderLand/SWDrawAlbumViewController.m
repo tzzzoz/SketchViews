@@ -2,19 +2,16 @@
 //  SWDrawAlbumViewController.m
 //  SketchWonderLand
 //
-//  Created by  on 12-1-15.
+//  Created by  on 12-3-28.
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import "SWDrawAlbumViewController.h"
 
 @implementation SWDrawAlbumViewController
-@synthesize drawWorkButton;
-@synthesize returnButton;
-@synthesize editButton;
 @synthesize deleteButton;
-@synthesize grayMaskImageView;
-@synthesize albumImageView;
+@synthesize returnButton;
+@synthesize backgroundImageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,113 +36,53 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    returnButton.hidden = YES;
-    editButton.hidden = YES;
-    deleteButton.hidden = YES;
-    drawWorkButton.hidden = YES;
-    grayMaskImageView.hidden = YES;
-//    albumImageView.hidden = YES;
+//    AFOpenFlowView *flowView=[[AFOpenFlowView alloc] initWithFrame:CGRectMake(20, 50, 900, 600)]; 
+    AFOpenFlowView *flowView=[[AFOpenFlowView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+    [flowView setViewDelegate:self];
+    flowView.viewDelegate=self;    
+    for (int i=1; i<=6; i++) {
+		[flowView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"drawWorkBackgroundImageView%d.png",i]] forIndex:i];
+	}
     
-    [returnButton setImage:[UIImage imageNamed:@"DAVCreturnOnButton.png"] forState:UIControlEventTouchDown];
-    [editButton setImage:[UIImage imageNamed:@"DAVCeditOnButton.png"] forState:UIControlEventTouchDown];
-    [deleteButton setImage:[UIImage imageNamed:@"DAVCdeleteOnButton.png"] forState:UIControlEventTouchDown];
     
-    [self showAlbum];
+    [flowView setNumberOfImages:6];
+//    flowView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]];
+    [self.view addSubview:flowView];
+    [flowView release];
 }
+
+- (void)openFlowView:(AFOpenFlowView *)openFlowView selectionDidChange:(int)index{ 
+    NSLog(@"%d is selected",index); 
+    
+    //    SWDrawViewController *swDrawViewController= [[SWDrawViewController alloc] init];
+    //    [swDrawViewController viewDidLoad];
+    //////////////想屎。。。。
+    //    [self.view addSubview:swDrawViewController.view];
+    //    [self.navigationController pushViewController:swDrawViewController animated:YES];
+    
+}
+
+- (void)openFlowView:(AFOpenFlowView *)openFlowView singleTaped:(int)index
+{
+//    SWDrawViewController *swDrawViewController= [[SWDrawViewController alloc] init];
+//    [swDrawViewController viewDidLoad];
+//    //////////////想屎。。。。
+//    [self.view addSubview:swDrawViewController.view];
+//    [self.navigationController pushViewController:swDrawViewController animated:YES];
+}
+
 
 - (void)viewDidUnload
 {
-    [self setEditButton:nil];
-    [self setDeleteButton:nil];
-    [self setReturnButton:nil];
-    [self setDrawWorkButton:nil];
-    [self setGrayMaskImageView:nil];
-    [self setAlbumImageView:nil];
-    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
 
-- (void)dealloc {
-    [returnButton release];
-    [editButton release];
-    [deleteButton release];
-    [drawWorkButton release];
-    [grayMaskImageView release];
-    [albumImageView release];
-    [super dealloc];
-}
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
- //   return (interfaceOrientation == UIInterfaceOrientationPortrait);
-    return YES;
-}
-
--(IBAction)showAlbum{
-    CGRect albumImageViewFrame = albumImageView.frame;
-    albumImageViewFrame.origin.y += 690;
-    [UIView animateWithDuration:1.0 delay:0.0 options:UIViewAnimationCurveEaseIn animations:^(void) 
-     {
-         albumImageView.frame = albumImageViewFrame;
-     } completion:^(BOOL finished) 
-     {
-     
-         returnButton.hidden = NO;
-         drawWorkButton.hidden = NO;
-         grayMaskImageView.hidden = NO;
-         
-     }];
- 
-}
-
--(IBAction) returnToLastPage:(id) sender{
-/**   [self.navigationController popViewControllerAnimated:YES];*/
-    
-    SWDrawViewController *swDrawViewController= [[SWDrawViewController alloc] init];
-    [swDrawViewController viewDidLoad];
-    //////////////想屎。。。。
-    [self.view addSubview:swDrawViewController.view];
-    [self.navigationController pushViewController:swDrawViewController animated:YES];
-    
-//    [self presentModalViewController:drawView animated:YES];
-}
-
--(IBAction)showDrawWork:(id)sender{
-    
-    CGRect grayMaskImageViewFrame = grayMaskImageView.frame;
-    grayMaskImageViewFrame.origin.x -= 1024;
-    CGRect drawWorkButtonFrame = drawWorkButton.frame;
-    drawWorkButtonFrame.origin.x -= 950;
-    //    drawWorkButtonFrame.origin.y -= 700;
-    [UIView animateWithDuration:2.0 delay:1.0 options:UIViewAnimationCurveEaseIn animations:^(void) 
-     {
-         drawWorkButton.frame = drawWorkButtonFrame;
-         grayMaskImageView.frame = grayMaskImageViewFrame;
-     } completion:^(BOOL finished) 
-     {
-         
-         //      returnButton.hidden = NO;
-         //    drawWorkButton.hidden = NO;
-         deleteButton.hidden = NO;
-         editButton.hidden = NO;
-         
-     }];
-    CGRect deleteButtonFrame = deleteButton.frame;
-    deleteButtonFrame.origin.x -= 120;
-    CGRect editButtonFrame = editButton.frame;
-    editButtonFrame.origin.x -= 120;
-    //    drawWorkButtonFrame.origin.y -= 700;
-    [UIView animateWithDuration:3.0 delay:1.0 options:UIViewAnimationCurveEaseIn animations:^(void) 
-     {
-         deleteButton.frame = deleteButtonFrame;
-         editButton.frame = editButtonFrame;
-     } completion:^(BOOL finished) 
-     {
-     }];
-    
+	return YES;
 }
 
 @end
