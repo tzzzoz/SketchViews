@@ -12,6 +12,7 @@
 @synthesize DVCbackgroundImageView;
 @synthesize geometryPasterLibraryImageView;
 @synthesize createGeometryPasterImageView;
+@synthesize doGoodImageView;
 @synthesize tailenderExitedWork;
 @synthesize penultimaExitedWork;
 @synthesize antepenultimaExitedWork;
@@ -36,6 +37,24 @@
 @synthesize createSquarePasterButton;
 @synthesize createTrapeziumPasterButton;
 @synthesize createTrianglePasterButton;
+@synthesize colorButton1;
+@synthesize colorButton2;
+@synthesize colorButton3;
+@synthesize colorButton4;
+@synthesize colorButton5;
+@synthesize colorButton6;
+@synthesize colorButton7;
+@synthesize colorButton8;
+@synthesize colorButton9;
+@synthesize colorButton10;
+@synthesize colorButton11;
+@synthesize colorButton12;
+@synthesize colorButton13;
+@synthesize colorButton14;
+@synthesize colorButton15;
+@synthesize colorButton16;
+@synthesize colorButton17;
+@synthesize colorButton18;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
