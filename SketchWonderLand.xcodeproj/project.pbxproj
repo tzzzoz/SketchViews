@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A66B55715270A9300DC73EA /* SWPasterWonderlandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A66B55615270A9300DC73EA /* SWPasterWonderlandViewController.xib */; };
 		180C51CC151B4ADE00792551 /* enterAlumButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 180C51CB151B4ADE00792551 /* enterAlumButton.png */; };
 		18A68C4F1522BF17006A594F /* SWDrawAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */; };
 		18A68C501522BF17006A594F /* SWDrawAlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A68C4E1522BF17006A594F /* SWDrawAlbumViewController.xib */; };
@@ -76,7 +77,6 @@
 		18EB664515187E6B00F8CAA1 /* backgroundImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB663B15187E6B00F8CAA1 /* backgroundImageView.png */; };
 		18EB664C15187E6B00F8CAA1 /* returnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB664415187E6B00F8CAA1 /* returnButton.png */; };
 		18EB665615187F2200F8CAA1 /* SWPasterWonderlandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */; };
-		18EB665715187F2200F8CAA1 /* SWPasterWonderlandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */; };
 		18EB665B151892D400F8CAA1 /* SWDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB6659151892D400F8CAA1 /* SWDrawViewController.m */; };
 		18EB665C151892D400F8CAA1 /* SWDrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */; };
 		18EB667A1518930E00F8CAA1 /* colorButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EB665F1518930E00F8CAA1 /* colorButton1.png */; };
@@ -116,6 +116,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A66B55615270A9300DC73EA /* SWPasterWonderlandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWPasterWonderlandViewController.xib; sourceTree = "<group>"; };
 		180C51CB151B4ADE00792551 /* enterAlumButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enterAlumButton.png; sourceTree = "<group>"; };
 		18A68C4C1522BF17006A594F /* SWDrawAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDrawAlbumViewController.h; sourceTree = "<group>"; };
 		18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDrawAlbumViewController.m; sourceTree = "<group>"; };
@@ -192,7 +193,6 @@
 		18EB664415187E6B00F8CAA1 /* returnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnButton.png; sourceTree = "<group>"; };
 		18EB665315187F2200F8CAA1 /* SWPasterWonderlandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPasterWonderlandViewController.h; sourceTree = "<group>"; };
 		18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPasterWonderlandViewController.m; sourceTree = "<group>"; };
-		18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWPasterWonderlandViewController.xib; sourceTree = "<group>"; };
 		18EB6658151892D400F8CAA1 /* SWDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWDrawViewController.h; sourceTree = "<group>"; };
 		18EB6659151892D400F8CAA1 /* SWDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWDrawViewController.m; sourceTree = "<group>"; };
 		18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWDrawViewController.xib; sourceTree = "<group>"; };
@@ -512,12 +512,12 @@
 				18E6923A15172C400076E1EB /* SWNavigationViewController.xib */,
 				18EB665315187F2200F8CAA1 /* SWPasterWonderlandViewController.h */,
 				18EB665415187F2200F8CAA1 /* SWPasterWonderlandViewController.m */,
-				18EB665515187F2200F8CAA1 /* SWPasterWonderlandViewController.xib */,
 				18EB6658151892D400F8CAA1 /* SWDrawViewController.h */,
 				18EB6659151892D400F8CAA1 /* SWDrawViewController.m */,
 				18EB665A151892D400F8CAA1 /* SWDrawViewController.xib */,
 				A3B5BD6914BC200500CA3006 /* SketchWonderLandViewController.h */,
 				A3B5BD6A14BC200500CA3006 /* SketchWonderLandViewController.m */,
+				0A66B55615270A9300DC73EA /* SWPasterWonderlandViewController.xib */,
 				A3B5BD6C14BC200500CA3006 /* SketchWonderLandViewController.xib */,
 				18A68C4C1522BF17006A594F /* SWDrawAlbumViewController.h */,
 				18A68C4D1522BF17006A594F /* SWDrawAlbumViewController.m */,
@@ -596,7 +596,6 @@
 				18E6924815172CF30076E1EB /* sketchWonderlandImageView.png in Resources */,
 				18EB664515187E6B00F8CAA1 /* backgroundImageView.png in Resources */,
 				18EB664C15187E6B00F8CAA1 /* returnButton.png in Resources */,
-				18EB665715187F2200F8CAA1 /* SWPasterWonderlandViewController.xib in Resources */,
 				18EB665C151892D400F8CAA1 /* SWDrawViewController.xib in Resources */,
 				18EB667A1518930E00F8CAA1 /* colorButton1.png in Resources */,
 				18EB667B1518930E00F8CAA1 /* colorButton10.png in Resources */,
@@ -676,6 +675,7 @@
 				18E1AD411522F0E100DAFE4D /* drawWorkBackgroundImageView4.png in Resources */,
 				18E1AD431522F0E800DAFE4D /* drawWorkBackgroundImageView5.png in Resources */,
 				18E1AD451522F7DE00DAFE4D /* drawWorkBackgroundImageView6.png in Resources */,
+				0A66B55715270A9300DC73EA /* SWPasterWonderlandViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
