@@ -10,10 +10,21 @@
 
 @interface SWDrawViewController : UIViewController{
     
+    UIView *colourView;
+    UIView *pasterView;
+    UIView *creatwPasterView;
+    UIView *promptDialogView;
+    
     UIImageView *DVCbackgroundImageView;
     UIImageView *geometryPasterLibraryImageView;
     UIImageView *createGeometryPasterImageView;
     UIImageView *doGoodImageView;
+    
+    //提醒子视图
+    UIImageView *grayMaskImageView;
+    UIImageView *basicBackgroundImageView;
+    UIButton *cancleButton;
+    UIButton *comfirmButton;
     
     //最近修改的三张图
     UIImageView *tailenderExitedWork;
@@ -70,6 +81,11 @@
     
 }
 
+@property (nonatomic, retain) IBOutlet UIView *colourView;
+@property (nonatomic, retain) IBOutlet UIView *pasterView;
+@property (nonatomic, retain) IBOutlet UIView *createPasterView;
+@property (nonatomic, retain) IBOutlet UIView *promptDialogView;
+
 @property (nonatomic, retain) IBOutlet UIImageView *DVCbackgroundImageView;
 @property (nonatomic, retain) IBOutlet UIImageView *geometryPasterLibraryImageView;
 @property (nonatomic, retain) IBOutlet UIImageView *createGeometryPasterImageView;
@@ -78,6 +94,11 @@
 @property (nonatomic, retain) IBOutlet UIImageView *tailenderExitedWork;
 @property (nonatomic, retain) IBOutlet UIImageView *penultimaExitedWork;
 @property (nonatomic, retain) IBOutlet UIImageView *antepenultimaExitedWork;
+
+@property (nonatomic, retain) IBOutlet UIImageView *grayMaskImageView;
+@property (nonatomic, retain) IBOutlet UIImageView *basicBackgroundImageView;
+@property (nonatomic, retain) IBOutlet UIButton *cancleButton;
+@property (nonatomic, retain) IBOutlet UIButton *comfirmButton;
 
 @property (nonatomic, retain) IBOutlet UIButton *returnButton;
 @property (nonatomic, retain) IBOutlet UIButton *saveButton;
@@ -122,5 +143,17 @@
 @property (nonatomic, retain) IBOutlet UIButton *colorButton17;
 @property (nonatomic, retain) IBOutlet UIButton *colorButton18;
 
+
+-(IBAction)clickCreatePasterButton:(id)sender;
+
+-(IBAction)clickSaveButton:(id)sender;
+
+-(IBAction)clickDeleteButton:(id)sender;
+
+-(IBAction)clickComfirmButton:(id)sender;
+
+-(IBAction)clickConcleButton:(id)sender;
+
+-(IBAction)clickColourButton:(id)sender;
 
 @end

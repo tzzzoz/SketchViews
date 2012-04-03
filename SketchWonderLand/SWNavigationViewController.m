@@ -13,7 +13,7 @@
 @synthesize NVCdrawViewButton;
 @synthesize NVCdrawAlbumButton;
 @synthesize NVCpasterWonderlandButton;
-@synthesize sketchWonderlandImageView;
+@synthesize helpButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

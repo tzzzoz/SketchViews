@@ -40,12 +40,11 @@
     AFOpenFlowView *flowView=[[AFOpenFlowView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
     [flowView setViewDelegate:self];
     flowView.viewDelegate=self;    
-    for (int i=1; i<=6; i++) {
+    for (int i=0; i<5; i++) {
 		[flowView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"drawWorkBackgroundImageView%d.png",i]] forIndex:i];
 	}
     
-    
-    [flowView setNumberOfImages:6];
+    [flowView setNumberOfImages:5];
 //    flowView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.png"]];
     [self.view addSubview:flowView];
     [flowView release];

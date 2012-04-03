@@ -13,13 +13,13 @@
     UIButton *NVCpasterWonderlandButton;
     UIButton *NVCdrawViewButton;
     UIButton *NVCdrawAlbumButton;
-    UIButton *sketchWonderlandImageView;
+    UIButton *helpButton;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *NVCbackground;
 @property (nonatomic, retain) IBOutlet UIButton *NVCpasterWonderlandButton;
 @property (nonatomic, retain) IBOutlet UIButton *NVCdrawViewButton;
 @property (nonatomic, retain) IBOutlet UIButton *NVCdrawAlbumButton;
-@property (nonatomic, retain) IBOutlet UIButton *sketchWonderlandImageView;
+@property (nonatomic, retain) IBOutlet UIButton *helpButton;
 
 @end

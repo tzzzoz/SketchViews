@@ -13,6 +13,7 @@
 @synthesize swDrawViewController;
 @synthesize swDrawAlbumViewController;
 
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -51,13 +52,18 @@
     [self presentModalViewController:drawViewController animated:NO];
     [drawViewController release];*/
     
-//    SWDrawViewController* swDrawView = [[SWDrawViewController alloc]init];
-//    [self presentModalViewController:swDrawView animated:NO];
-//    [swDrawView release];
+    SWDrawViewController* swDrawView = [[SWDrawViewController alloc]init];
+    [self presentModalViewController:swDrawView animated:NO];
+    [swDrawView release];
     
-    SWDrawAlbumViewController* swDrawAlbumView = [[SWDrawAlbumViewController alloc]init];
-    [self presentModalViewController:swDrawAlbumView animated:NO];
-    [swDrawAlbumView release];
+//    SWDrawAlbumViewController* swDrawAlbumView = [[SWDrawAlbumViewController alloc]init];
+//    [self presentModalViewController:swDrawAlbumView animated:NO];
+//    [swDrawAlbumView release];
+//    
+//    SWHelpViewController* swDrawAlbumView = [[SWHelpViewController alloc]init];
+//    [self presentModalViewController:swDrawAlbumView animated:NO];
+//    [swDrawAlbumView release];
+
 
     
 //    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
@@ -107,6 +113,7 @@
     [swNavigationController release];
     [swDrawViewController release];
     [swDrawAlbumViewController release];
+    [swHelpViewController release];
     
     [super dealloc];
 }

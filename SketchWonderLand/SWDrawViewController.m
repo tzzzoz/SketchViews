@@ -9,6 +9,10 @@
 #import "SWDrawViewController.h"
 
 @implementation SWDrawViewController
+@synthesize colourView;
+@synthesize pasterView;
+@synthesize promptDialogView;
+@synthesize createPasterView;
 @synthesize DVCbackgroundImageView;
 @synthesize geometryPasterLibraryImageView;
 @synthesize createGeometryPasterImageView;
@@ -55,6 +59,10 @@
 @synthesize colorButton16;
 @synthesize colorButton17;
 @synthesize colorButton18;
+@synthesize cancleButton;
+@synthesize comfirmButton;
+@synthesize basicBackgroundImageView;
+@synthesize grayMaskImageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -79,6 +87,40 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    doGoodImageView.hidden = YES;
+    grayMaskImageView.hidden = YES;
+    [colourView removeFromSuperview];
+    [createPasterView removeFromSuperview];
+    [promptDialogView removeFromSuperview];
+    
+    
+}
+//点击创建贴纸按钮
+-(IBAction)clickCreatePasterButton:(id)sender{
+    [super.view addSubview:createPasterView];
+}
+//点击保存按钮
+-(IBAction)clickSaveButton:(id)sender{
+    tailenderExitedWork.image = [UIImage imageNamed:@"redoButton.png"];
+}
+//点击清空按钮
+-(IBAction)clickDeleteButton:(id)sender{
+    grayMaskImageView.hidden = NO;
+    [super.view addSubview:promptDialogView];
+}
+//点击确定按钮
+-(IBAction)clickComfirmButton:(id)sender{
+    grayMaskImageView.hidden = YES;
+    [promptDialogView removeFromSuperview];
+}
+//点击取消按钮
+-(IBAction)clickConcleButton:(id)sender{
+    grayMaskImageView.hidden = YES;
+    [promptDialogView removeFromSuperview];
+}
+//点击颜色按钮
+-(IBAction)clickColourButton:(id)sender{
+    
 }
 
 - (void)viewDidUnload
