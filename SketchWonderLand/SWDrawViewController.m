@@ -89,9 +89,10 @@
     // Do any additional setup after loading the view from its nib.
     doGoodImageView.hidden = YES;
     grayMaskImageView.hidden = YES;
-    [colourView removeFromSuperview];
+ //   [colourView removeFromSuperview];
     [createPasterView removeFromSuperview];
     [promptDialogView removeFromSuperview];
+    [pasterView removeFromSuperview];
     
     
 }
@@ -118,10 +119,170 @@
     grayMaskImageView.hidden = YES;
     [promptDialogView removeFromSuperview];
 }
+
 //点击颜色按钮
--(IBAction)clickColourButton:(id)sender{
-    
+-(IBAction)clickColourButton1:(id)sender{
+    //没选中该颜色
+    if (colorButton1.center.y == 85) {
+        colorButton1.frame = CGRectMake(0, 0, 42, 130);
+    }
+    //选中该颜色
+    else if(colorButton1.center.y == 65){
+        colorButton1.frame = CGRectMake(0, 20, 42, 130);
+    }
 }
+-(IBAction)clickColourButton2:(id)sender{
+    if (colorButton2.center.y == 85) {
+        colorButton2.frame = CGRectMake(42, 0, 42, 130);
+    }
+    else if(colorButton2.center.y == 65){
+        colorButton2.frame = CGRectMake(42, 20, 42, 130);
+    }
+}
+-(IBAction)clickColourButton3:(id)sender{
+    if (colorButton3.center.y == 85) {
+        colorButton3.frame = CGRectMake(84, 0, 42, 130);
+    }
+    else if(colorButton3.center.y == 65){
+        colorButton3.frame = CGRectMake(84, 20, 42, 130);
+    }
+}
+-(IBAction)clickColourButton4:(id)sender{
+    if (colorButton4.center.y == 85) {
+        colorButton4.frame = CGRectMake(126, 0, 42, 130);
+    }
+    else if(colorButton4.center.y == 65){
+        colorButton4.frame = CGRectMake(126, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton5:(id)sender{
+    if (colorButton5.center.y == 85) {
+        colorButton5.frame = CGRectMake(168, 0, 42, 130);
+    }
+    else if(colorButton5.center.y == 65){
+        colorButton5.frame = CGRectMake(168, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton6:(id)sender{
+    if (colorButton6.center.y == 85) {
+        colorButton6.frame = CGRectMake(210, 0, 42, 130);
+    }
+    else if(colorButton6.center.y == 65){
+        colorButton6.frame = CGRectMake(210, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton7:(id)sender{
+    if (colorButton7.center.y == 85) {
+        colorButton7.frame = CGRectMake(252, 0, 42, 130);
+    }
+    else if(colorButton7.center.y == 65){
+        colorButton7.frame = CGRectMake(252, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton8:(id)sender{
+    if (colorButton8.center.y == 85) {
+        colorButton8.frame = CGRectMake(294, 0, 42, 130);
+    }
+    else if(colorButton8.center.y == 65){
+        colorButton8.frame = CGRectMake(294, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton9:(id)sender{
+    if (colorButton9.center.y == 85) {
+        colorButton9.frame = CGRectMake(336, 0, 42, 130);
+    }
+    else if(colorButton9.center.y == 65){
+        colorButton9.frame = CGRectMake(336, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton10:(id)sender{
+    if (colorButton10.center.y == 85) {
+        colorButton10.frame = CGRectMake(378, 0, 42, 130);
+    }
+    else if(colorButton10.center.y == 65){
+        colorButton10.frame = CGRectMake(378, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton11:(id)sender{
+    if (colorButton11.center.y == 85) {
+        colorButton11.frame = CGRectMake(420, 0, 42, 130);
+    }
+    else if(colorButton11.center.y == 65){
+        colorButton11.frame = CGRectMake(420, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton12:(id)sender{
+    if (colorButton12.center.y == 85) {
+        colorButton12.frame = CGRectMake(462, 0, 42, 130);
+    }
+    else if(colorButton12.center.y == 65){
+        colorButton12.frame = CGRectMake(462, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton13:(id)sender{
+    if (colorButton13.center.y == 85) {
+        colorButton13.frame = CGRectMake(504, 0, 42, 130);
+    }
+    else if(colorButton13.center.y == 65){
+        colorButton13.frame = CGRectMake(504, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton14:(id)sender{
+    if (colorButton14.center.y == 85) {
+        colorButton14.frame = CGRectMake(546, 0, 42, 130);
+    }
+    else if(colorButton14.center.y == 65){
+        colorButton14.frame = CGRectMake(546, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton15:(id)sender{
+    if (colorButton15.center.y == 85) {
+        colorButton15.frame = CGRectMake(588, 0, 42, 130);
+    }
+    else if(colorButton15.center.y == 65){
+        colorButton15.frame = CGRectMake(588, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton16:(id)sender{
+    if (colorButton16.center.y == 85) {
+        colorButton16.frame = CGRectMake(630, 0, 42, 130);
+    }
+    else if(colorButton16.center.y == 65){
+        colorButton16.frame = CGRectMake(630, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton17:(id)sender{
+    if (colorButton17.center.y == 85) {
+        colorButton17.frame = CGRectMake(672, 0, 42, 130);
+    }
+    else if(colorButton17.center.y == 65){
+        colorButton17.frame = CGRectMake(672, 20, 42, 130);
+    }
+
+}
+-(IBAction)clickColourButton18:(id)sender{
+    if (colorButton18.center.y == 85) {
+        colorButton18.frame = CGRectMake(714, 0, 42, 130);
+    }
+    else if(colorButton18.center.y == 65){
+        colorButton18.frame = CGRectMake(714, 20, 42, 130);
+    }
+
+}
+
 
 - (void)viewDidUnload
 {

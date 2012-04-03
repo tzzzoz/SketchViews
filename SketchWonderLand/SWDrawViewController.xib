@@ -55,7 +55,7 @@
 								<string key="NSFrameSize">{1024, 768}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="473391036"/>
+								<reference key="NSNextKeyView" ref="757494079"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="508425898">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MQA</bytes>
@@ -456,7 +456,7 @@
 								<string key="NSFrame">{{-6, 504}, {70, 90}}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="306177448"/>
+								<reference key="NSNextKeyView" ref="473391036"/>
 								<string key="NSReuseIdentifierKey">_NS:544</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -1143,10 +1143,10 @@
 							<object class="IBUIImageView" id="473391036">
 								<reference key="NSNextResponder" ref="440797145"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{0, -50}, {1024, 768}}</string>
+								<string key="NSFrameSize">{1024, 768}</string>
 								<reference key="NSSuperview" ref="440797145"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="757494079"/>
+								<reference key="NSNextKeyView" ref="306177448"/>
 								<string key="NSReuseIdentifierKey">_NS:544</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -1855,6 +1855,168 @@
 					</object>
 					<int key="connectionID">144</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton1:</string>
+						<reference key="source" ref="787895185"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">145</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton2:</string>
+						<reference key="source" ref="274448467"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">146</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton3:</string>
+						<reference key="source" ref="857813854"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">147</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton4:</string>
+						<reference key="source" ref="368176882"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">148</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton5:</string>
+						<reference key="source" ref="382885416"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">149</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton6:</string>
+						<reference key="source" ref="875748431"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">150</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton7:</string>
+						<reference key="source" ref="616289743"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">151</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton8:</string>
+						<reference key="source" ref="372372657"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">152</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton9:</string>
+						<reference key="source" ref="216311601"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">153</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton10:</string>
+						<reference key="source" ref="100585044"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">154</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton11:</string>
+						<reference key="source" ref="1045899030"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">155</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton12:</string>
+						<reference key="source" ref="765014581"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">156</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton13:</string>
+						<reference key="source" ref="443523429"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">157</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton14:</string>
+						<reference key="source" ref="124668460"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">158</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton15:</string>
+						<reference key="source" ref="619581735"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">159</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton16:</string>
+						<reference key="source" ref="873885898"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">160</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton17:</string>
+						<reference key="source" ref="1054092959"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">161</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickColourButton18:</string>
+						<reference key="source" ref="343866190"/>
+						<reference key="destination" ref="606714003"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">162</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2385,7 +2547,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">144</int>
+			<int key="maxID">162</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2397,7 +2559,24 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>clickColourButton:</string>
+							<string>clickColourButton10:</string>
+							<string>clickColourButton11:</string>
+							<string>clickColourButton12:</string>
+							<string>clickColourButton13:</string>
+							<string>clickColourButton14:</string>
+							<string>clickColourButton15:</string>
+							<string>clickColourButton16:</string>
+							<string>clickColourButton17:</string>
+							<string>clickColourButton18:</string>
+							<string>clickColourButton1:</string>
+							<string>clickColourButton2:</string>
+							<string>clickColourButton3:</string>
+							<string>clickColourButton4:</string>
+							<string>clickColourButton5:</string>
+							<string>clickColourButton6:</string>
+							<string>clickColourButton7:</string>
+							<string>clickColourButton8:</string>
+							<string>clickColourButton9:</string>
 							<string>clickComfirmButton:</string>
 							<string>clickConcleButton:</string>
 							<string>clickCreatePasterButton:</string>
@@ -2406,6 +2585,23 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -2418,7 +2614,24 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>clickColourButton:</string>
+							<string>clickColourButton10:</string>
+							<string>clickColourButton11:</string>
+							<string>clickColourButton12:</string>
+							<string>clickColourButton13:</string>
+							<string>clickColourButton14:</string>
+							<string>clickColourButton15:</string>
+							<string>clickColourButton16:</string>
+							<string>clickColourButton17:</string>
+							<string>clickColourButton18:</string>
+							<string>clickColourButton1:</string>
+							<string>clickColourButton2:</string>
+							<string>clickColourButton3:</string>
+							<string>clickColourButton4:</string>
+							<string>clickColourButton5:</string>
+							<string>clickColourButton6:</string>
+							<string>clickColourButton7:</string>
+							<string>clickColourButton8:</string>
+							<string>clickColourButton9:</string>
 							<string>clickComfirmButton:</string>
 							<string>clickConcleButton:</string>
 							<string>clickCreatePasterButton:</string>
@@ -2428,7 +2641,75 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
-								<string key="name">clickColourButton:</string>
+								<string key="name">clickColourButton10:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton11:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton12:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton13:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton14:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton15:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton16:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton17:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton18:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton1:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton2:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton3:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton4:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton5:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton6:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton7:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton8:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">clickColourButton9:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">

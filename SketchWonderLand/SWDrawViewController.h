@@ -154,6 +154,23 @@
 
 -(IBAction)clickConcleButton:(id)sender;
 
--(IBAction)clickColourButton:(id)sender;
+-(IBAction)clickColourButton1:(id)sender;
+-(IBAction)clickColourButton2:(id)sender;
+-(IBAction)clickColourButton3:(id)sender;
+-(IBAction)clickColourButton4:(id)sender;
+-(IBAction)clickColourButton5:(id)sender;
+-(IBAction)clickColourButton6:(id)sender;
+-(IBAction)clickColourButton7:(id)sender;
+-(IBAction)clickColourButton8:(id)sender;
+-(IBAction)clickColourButton9:(id)sender;
+-(IBAction)clickColourButton10:(id)sender;
+-(IBAction)clickColourButton11:(id)sender;
+-(IBAction)clickColourButton12:(id)sender;
+-(IBAction)clickColourButton13:(id)sender;
+-(IBAction)clickColourButton14:(id)sender;
+-(IBAction)clickColourButton15:(id)sender;
+-(IBAction)clickColourButton16:(id)sender;
+-(IBAction)clickColourButton17:(id)sender;
+-(IBAction)clickColourButton18:(id)sender;
 
 @end
