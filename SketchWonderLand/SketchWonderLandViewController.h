@@ -10,12 +10,14 @@
 #import "SWNavigationViewController.h"
 #import "SWDrawViewController.h"
 #import "SWDrawAlbumViewController.h"
+#import "SWHelpViewController.h"
 
 @interface SketchWonderLandViewController : UIViewController
 {
     SWNavigationViewController *swNavigationViewController;
     SWDrawViewController *swDrawViewController;
     SWDrawAlbumViewController *swDrawAlbumViewController;
+    SWHelpViewController *swHelpViewController;
 }
 
 @property (retain, nonatomic) SWNavigationViewController *swNavigationController;
