@@ -54,7 +54,7 @@
 								<string key="NSFrameSize">{1024, 768}</string>
 								<reference key="NSSuperview" ref="341404614"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="615429316"/>
+								<reference key="NSNextKeyView" ref="532941042"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">4</int>
@@ -105,7 +105,7 @@
 								<string key="NSFrame">{{401, 497}, {180, 170}}</string>
 								<reference key="NSSuperview" ref="341404614"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView" ref="842234748"/>
+								<reference key="NSNextKeyView" ref="615429316"/>
 								<string key="NSReuseIdentifierKey">_NS:222</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -129,6 +129,7 @@
 								<string key="NSFrame">{{867, 497}, {170, 170}}</string>
 								<reference key="NSSuperview" ref="341404614"/>
 								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:222</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -174,7 +175,7 @@
 						<string key="NSFrameSize">{1024, 768}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="532941042"/>
+						<reference key="NSNextKeyView" ref="842234748"/>
 						<string key="NSReuseIdentifierKey">_NS:180</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -370,7 +371,7 @@
 							<string>NVCdrawAlbumButton</string>
 							<string>NVCdrawViewButton</string>
 							<string>NVCpasterWonderlandButton</string>
-							<string>sketchWonderlandImageView</string>
+							<string>helpButton</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -389,7 +390,7 @@
 							<string>NVCdrawAlbumButton</string>
 							<string>NVCdrawViewButton</string>
 							<string>NVCpasterWonderlandButton</string>
-							<string>sketchWonderlandImageView</string>
+							<string>helpButton</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -410,7 +411,7 @@
 								<string key="candidateClassName">UIButton</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">sketchWonderlandImageView</string>
+								<string key="name">helpButton</string>
 								<string key="candidateClassName">UIButton</string>
 							</object>
 						</object>
