@@ -30,47 +30,47 @@
 {
     [super viewDidLoad];
     
-//    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
-//    [self presentModalViewController:selectDrawCanvasViewController animated:NO];
-//    [selectDrawCanvasViewController release];
+    //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
+    //    [self presentModalViewController:selectDrawCanvasViewController animated:NO];
+    //    [selectDrawCanvasViewController release];
     
-//    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
+    //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
     
     
-//    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]initWithNibName:@"SWSelectDrawCanvasViewController" bundle:nil];
-//    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
-//    self.swSelectDrawCanvasViewController = selectDrawCanvasViewController;
-//    [self.view insertSubview:selectDrawCanvasViewController.view atIndex:0];
-//    [selectDrawCanvasViewController release];
+    //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]initWithNibName:@"SWSelectDrawCanvasViewController" bundle:nil];
+    //    SWSelectDrawCanvasViewController* selectDrawCanvasViewController = [[SWSelectDrawCanvasViewController alloc]init];
+    //    self.swSelectDrawCanvasViewController = selectDrawCanvasViewController;
+    //    [self.view insertSubview:selectDrawCanvasViewController.view atIndex:0];
+    //    [selectDrawCanvasViewController release];
     
-/**    SWDrawAlbumViewController* drawAlbumViewController = [[SWDrawAlbumViewController alloc]init];
-    [self presentModalViewController:drawAlbumViewController animated:NO];
-    [drawAlbumViewController release];
- */
+    /**    SWDrawAlbumViewController* drawAlbumViewController = [[SWDrawAlbumViewController alloc]init];
+     [self presentModalViewController:drawAlbumViewController animated:NO];
+     [drawAlbumViewController release];
+     */
     
- /**   SWDrawViewController* drawViewController = [[SWDrawViewController alloc]init];
-    [self presentModalViewController:drawViewController animated:NO];
-    [drawViewController release];*/
+    /**   SWDrawViewController* drawViewController = [[SWDrawViewController alloc]init];
+     [self presentModalViewController:drawViewController animated:NO];
+     [drawViewController release];*/
     
     SWDrawViewController* swDrawView = [[SWDrawViewController alloc]init];
     [self presentModalViewController:swDrawView animated:NO];
     [swDrawView release];
     
-//    SWDrawAlbumViewController* swDrawAlbumView = [[SWDrawAlbumViewController alloc]init];
-//    [self presentModalViewController:swDrawAlbumView animated:NO];
-//    [swDrawAlbumView release];
-//    
-//    SWHelpViewController* swDrawAlbumView = [[SWHelpViewController alloc]init];
-//    [self presentModalViewController:swDrawAlbumView animated:NO];
-//    [swDrawAlbumView release];
-
-
+    //    SWDrawAlbumViewController* swDrawAlbumView = [[SWDrawAlbumViewController alloc]init];
+    //    [self presentModalViewController:swDrawAlbumView animated:NO];
+    //    [swDrawAlbumView release];
+    //    
+    //    SWHelpViewController* swDrawAlbumView = [[SWHelpViewController alloc]init];
+    //    [self presentModalViewController:swDrawAlbumView animated:NO];
+    //    [swDrawAlbumView release];
     
-//    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
-//    [self presentModalViewController:swNavigationView animated:NO];
-//    [swNavigationView release];
     
-//    [super viewDidLoad];
+    
+    //    SWNavigationViewController* swNavigationView = [[SWNavigationViewController alloc]init];
+    //    [self presentModalViewController:swNavigationView animated:NO];
+    //    [swNavigationView release];
+    
+    //    [super viewDidLoad];
 }
 
 
@@ -113,7 +113,7 @@
     [swNavigationController release];
     [swDrawViewController release];
     [swDrawAlbumViewController release];
-    [swHelpViewController release];
+  //  [swHelpViewController release];
     
     [super dealloc];
 }

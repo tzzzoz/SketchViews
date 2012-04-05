@@ -54,4 +54,13 @@
     return YES;
 }
 
+-(void) dealloc{
+    [NVCbackground release];
+    [NVCdrawAlbumButton release];
+    [NVCdrawViewButton release];
+    [NVCpasterWonderlandButton release];
+    [helpButton release];
+    [super dealloc];
+}
+
 @end

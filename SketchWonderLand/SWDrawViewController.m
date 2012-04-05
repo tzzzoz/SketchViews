@@ -13,19 +13,23 @@
 @synthesize pasterView;
 @synthesize promptDialogView;
 @synthesize createPasterView;
+
 @synthesize DVCbackgroundImageView;
 @synthesize geometryPasterLibraryImageView;
 @synthesize createGeometryPasterImageView;
 @synthesize doGoodImageView;
+
 @synthesize tailenderExitedWork;
 @synthesize penultimaExitedWork;
 @synthesize antepenultimaExitedWork;
+
 @synthesize returnButton;
 @synthesize saveButton;
 @synthesize deleteButton;
 @synthesize enterAlbumButton;
 @synthesize undoButton;
 @synthesize redoButton;
+
 @synthesize circlePasterButton;
 @synthesize ellipsePasterButton;
 @synthesize pentaclePasterButton;
@@ -33,6 +37,7 @@
 @synthesize squarePasterButton;
 @synthesize trapeziumPasterButton;
 @synthesize trianglePasterButton;
+
 @synthesize createGeometryPasterButton;
 @synthesize createCirclePasterButton;
 @synthesize createEllipsePasterButton;
@@ -41,6 +46,7 @@
 @synthesize createSquarePasterButton;
 @synthesize createTrapeziumPasterButton;
 @synthesize createTrianglePasterButton;
+
 @synthesize colorButton1;
 @synthesize colorButton2;
 @synthesize colorButton3;
@@ -59,6 +65,7 @@
 @synthesize colorButton16;
 @synthesize colorButton17;
 @synthesize colorButton18;
+
 @synthesize cancleButton;
 @synthesize comfirmButton;
 @synthesize basicBackgroundImageView;
@@ -89,20 +96,47 @@
     // Do any additional setup after loading the view from its nib.
     doGoodImageView.hidden = YES;
     grayMaskImageView.hidden = YES;
- //   [colourView removeFromSuperview];
+    [colourView removeFromSuperview];
     [createPasterView removeFromSuperview];
     [promptDialogView removeFromSuperview];
-    [pasterView removeFromSuperview];
+ //   [pasterView removeFromSuperview];
     
     
 }
 //点击创建贴纸按钮
 -(IBAction)clickCreatePasterButton:(id)sender{
     [super.view addSubview:createPasterView];
+//    if (self.createPasterView) {
+//        [super.view addSubview:createPasterView];
+//    }
+//    else 
+//        [createPasterView removeFromSuperview];
+    
 }
 //点击保存按钮
 -(IBAction)clickSaveButton:(id)sender{
-    tailenderExitedWork.image = [UIImage imageNamed:@"redoButton.png"];
+ //   tailenderExitedWork.image = [UIImage imageNamed:@"redoButton.png"];
+    //移动动态图片
+    UIImageView *savedWork = [[UIImageView alloc] initWithFrame:CGRectMake(180.0f, 100.0f, 700.0f, 500.0f)];
+    [savedWork setImage:[UIImage imageNamed:@"backgroundImageViewDAV.png"]];
+    
+    [UIImageView beginAnimations:nil context:NULL];
+    [UIImageView setAnimationDuration:3];
+    [UIImageView setAnimationBeginsFromCurrentState:YES];
+    savedWork.frame = CGRectMake(0.0, 504.0, 65.0, 85.0);
+    [UIImageView commitAnimations];
+    [self.view addSubview:savedWork];
+    [savedWork release];
+//    
+//    if (tailenderExitedWork.image == [UIImage imageNamed:@"enterAlumButton.png"]) {
+//        
+//    //    tailenderExitedWork.image = savedWork.image;
+//    }
+//    else if(penultimaExitedWork.image == [UIImage imageNamed:@"enterAlumButton.png"]){
+//      //  penultimaExitedWork.image = tailenderExitedWork.image;
+//            }
+//    
+    
 }
 //点击清空按钮
 -(IBAction)clickDeleteButton:(id)sender{
@@ -295,6 +329,71 @@
 {
     // Return YES for supported orientations
 	return YES;
+}
+
+-(void)dealloc{
+    [colourView release];
+    [pasterView release];
+    [promptDialogView release];
+    [creatwPasterView release];
+    
+    [DVCbackgroundImageView release];
+    [geometryPasterLibraryImageView release];
+    [createGeometryPasterImageView release];
+    [doGoodImageView release];
+    
+    [tailenderExitedWork release];
+    [penultimaExitedWork release];
+    [antepenultimaExitedWork release];
+    
+    [returnButton release];
+    [saveButton release];
+    [enterAlbumButton release];
+    [deleteButton release];
+    [returnButton release];
+    [undoButton release];
+    
+    [circlePasterButton release];
+    [ellipsePasterButton release];
+    [pentaclePasterButton release];
+    [rectanglePasterButton release];
+    [squarePasterButton release];
+    [trianglePasterButton release];
+    [trapeziumPasterButton release];
+    
+    [createGeometryPasterButton release];
+    [createCirclePasterButton release];
+    [createEllipsePasterButton release];
+    [createPentaclePasterButton release];
+    [createRectanglePasterButton release];
+    [createSquarePasterButton release];
+    [createTrapeziumPasterButton release];
+    [createTrianglePasterButton release];
+    
+    [colorButton1 release];
+    [colorButton2 release];
+    [colorButton3 release];
+    [colorButton4 release];
+    [colorButton5 release];
+    [colorButton6 release];
+    [colorButton7 release];
+    [colorButton8 release];
+    [colorButton9 release];
+    [colorButton10 release];
+    [colorButton11 release];
+    [colorButton12 release];
+    [colorButton13 release];
+    [colorButton14 release];
+    [colorButton15 release];
+    [colorButton16 release];
+    [colorButton17 release];
+    [colorButton18 release];
+    
+    [cancleButton release];
+    [comfirmButton release];
+    [basicBackgroundImageView release];
+    [grayMaskImageView release];
+    [super dealloc];
 }
 
 @end
