@@ -47,6 +47,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+ //   [UIActionSheet showinview:self.view];
 }
 
 - (void)viewDidUnload
@@ -60,6 +61,24 @@
 {
     // Return YES for supported orientations
 	return YES;
+}
+
+-(void)dealloc{
+    [backgroundImageView release];
+    [pasterTemplateButton1 release];
+    [pasterTemplateButton2 release];
+    [pasterTemplateButton3 release];
+    [pasterTemplateButton4 release];
+    [pasterTemplateButton5 release];
+    [pasterTemplateButton6 release];
+    [pasterTemplateButton7 release];
+    [pasterTemplateButton8 release];
+    [pasterTemplateButton9 release];
+    [pasterTemplateButton10 release];
+    [pasterTemplateButton11 release];
+    [pasterTemplateButton12 release];
+    [returnButton release];
+    [super dealloc];
 }
 
 @end

@@ -107,4 +107,13 @@
 	return YES;
 }
 
+-(void) dealloc{
+    [backgroundImageView release];
+    [helpImageView release];
+    [returnButton release];
+    [prevButton release];
+    [nextButton release];
+    [super dealloc];
+}
+
 @end

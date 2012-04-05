@@ -7,7 +7,6 @@
 //
 
 #import "SketchWonderLandAppDelegate.h"
-
 #import "SketchWonderLandViewController.h"
 
 @implementation SketchWonderLandAppDelegate
